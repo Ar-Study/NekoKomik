@@ -1,0 +1,103 @@
+{
+  "id": "tidal-warning",
+  "slug": "tidal-warning",
+  "title": "Tidal Warning",
+  "coverImage": "https://komikindo.ch/wp-content/uploads/2026/08/Komik-Tidal-Warning-220x319.jpg",
+  "synopsis": "Manhwa                    Tidal Warning yang dibuat oleh komikus bernama\n                    That Thing ini bercerita tentang\n                    Lee Danbi, seorang pengembang berpengalaman selama 3 tahun, memiliki motto hidup yang sederhana: jangan serakah akan dunia di luar jangkauannya dan puaslah dengan kenyataan.\r\n\r\nItulah mengapa ia mampu melepaskan cinta tak berbalas yang di luar kemampuannya, tetapi... \r\n\r\nSuatu pagi yang dimulai dengan ramalan buruk, pemimpin tim yang baru diangkat adalah... cinta pertamanya dari sekolah? Dan tsunami raksasa itu menghantam kehidupan sederhana Danbi!\r\n\r\n\"Aku tidak mengerti. Lee Danbi yang kukenal menyukaiku.\"\r\n\r\nDengan perasaan yang membingungkan dan asing itu, jantungnya mulai berdetak kencang lagi.",
+  "status": "Berjalan",
+  "author": "That Thing",
+  "artist": "Mattgom",
+  "type": "Manhwa",
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "themes": [
+    "Magic",
+    "Monsters"
+  ],
+  "rating": 9.5,
+  "totalChapters": 10,
+  "chapters": [
+    {
+      "id": "tidal-warning-chapter-10",
+      "slug": "tidal-warning-chapter-10",
+      "title": "Chapter 10",
+      "url": "https://komikindo.ch/tidal-warning-chapter-10/",
+      "releaseDate": "1 jam yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-9",
+      "slug": "tidal-warning-chapter-9",
+      "title": "Chapter 9",
+      "url": "https://komikindo.ch/tidal-warning-chapter-9/",
+      "releaseDate": "2 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-8",
+      "slug": "tidal-warning-chapter-8",
+      "title": "Chapter 8",
+      "url": "https://komikindo.ch/tidal-warning-chapter-8/",
+      "releaseDate": "3 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-7",
+      "slug": "tidal-warning-chapter-7",
+      "title": "Chapter 7",
+      "url": "https://komikindo.ch/tidal-warning-chapter-7/",
+      "releaseDate": "3 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-6",
+      "slug": "tidal-warning-chapter-6",
+      "title": "Chapter 6",
+      "url": "https://komikindo.ch/tidal-warning-chapter-6/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-5",
+      "slug": "tidal-warning-chapter-5",
+      "title": "Chapter 5",
+      "url": "https://komikindo.ch/tidal-warning-chapter-5/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-4",
+      "slug": "tidal-warning-chapter-4",
+      "title": "Chapter 4",
+      "url": "https://komikindo.ch/tidal-warning-chapter-4/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-3",
+      "slug": "tidal-warning-chapter-3",
+      "title": "Chapter 3",
+      "url": "https://komikindo.ch/tidal-warning-chapter-3/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-2",
+      "slug": "tidal-warning-chapter-2",
+      "title": "Chapter 2",
+      "url": "https://komikindo.ch/tidal-warning-chapter-2/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "tidal-warning-chapter-1",
+      "slug": "tidal-warning-chapter-1",
+      "title": "Chapter 1",
+      "url": "https://komikindo.ch/tidal-warning-chapter-1/",
+      "releaseDate": "4 minggu yang lalu",
+      "isEnd": false
+    }
+  ]
+}

@@ -18,6 +18,9 @@
 </head>
 <body>
 
+  <!-- Top Reading Progress Indicator -->
+  <div class="reading-progress-bar" id="reading-progress-bar"></div>
+
   <!-- Site Header & Navigation -->
   <header class="site-header" id="site-header">
     <div class="container header-inner">
@@ -109,7 +112,20 @@
     <section class="hero-banner" id="hero-banner-container"></section>
 
     <!-- Main Content Area -->
-    <main class="container" style="padding: 40px 20px;">
+    <main class="container" style="padding: 24px 20px 48px;">
+      <!-- Quick Type & Genre Navigation Strip -->
+      <section class="quick-genre-strip" style="margin-bottom: 28px; display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch;">
+        <a href="#catalog" class="genre-pill active" style="white-space: nowrap;">🔥 Semua Komik</a>
+        <a href="#catalog?type=manhwa" class="genre-pill" style="white-space: nowrap;">🇰🇷 Manhwa Korea</a>
+        <a href="#catalog?type=manga" class="genre-pill" style="white-space: nowrap;">🇯🇵 Manga Jepang</a>
+        <a href="#catalog?type=manhua" class="genre-pill" style="white-space: nowrap;">🇨🇳 Manhua China</a>
+        <a href="#catalog?type=action" class="genre-pill" style="white-space: nowrap;">⚔️ Action</a>
+        <a href="#catalog?type=fantasy" class="genre-pill" style="white-space: nowrap;">✨ Fantasy</a>
+        <a href="#catalog?type=martial+arts" class="genre-pill" style="white-space: nowrap;">🥋 Martial Arts</a>
+        <a href="#catalog?type=romance" class="genre-pill" style="white-space: nowrap;">💖 Romance</a>
+        <a href="#catalog?type=adventure" class="genre-pill" style="white-space: nowrap;">🗺️ Adventure</a>
+      </section>
+
       <!-- Komik HOT / Populer Hari Ini -->
       <section>
         <div class="section-head">
@@ -206,6 +222,27 @@
       </div>
     </div>
   </footer>
+
+  <!-- Mobile Bottom Navigation Bar (Thumb-Friendly Ergonomics) -->
+  <nav class="mobile-bottom-nav" id="mobile-bottom-nav" aria-label="Navigasi Bawah">
+    <a href="#home" class="bottom-nav-item active" id="bnav-home">
+      <span class="bnav-icon">🏠</span>
+      <span class="bnav-label">Beranda</span>
+    </a>
+    <a href="#catalog" class="bottom-nav-item" id="bnav-catalog">
+      <span class="bnav-icon">📚</span>
+      <span class="bnav-label">Jelajah</span>
+    </a>
+    <a href="#bookmarks" class="bottom-nav-item" id="bnav-bookmarks">
+      <span class="bnav-icon">⭐</span>
+      <span class="bnav-label">Favorit</span>
+      <span class="bnav-badge" id="bnav-bookmark-badge" style="display: none;">0</span>
+    </a>
+    <a href="#history" class="bottom-nav-item" id="bnav-history">
+      <span class="bnav-icon">🕒</span>
+      <span class="bnav-label">Riwayat</span>
+    </a>
+  </nav>
 
   <!-- Application Scripts -->
   <script src="js/data.js"></script>

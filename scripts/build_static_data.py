@@ -60,35 +60,95 @@ def main():
         if ch_data and ch_data.get("status") == "success":
             save_json(f"data/chapters/{ch_slug}.json", ch_data["data"])
 
-    # 3. Top comics from popular & latest
+    # 3. Cache ALL comics from popular & latest
     all_slugs = []
     if popular and popular.get("data"):
-        for c in popular["data"][:15]:
-            all_slugs.append(c["slug"])
+        for c in popular["data"]:
+            if c["slug"] not in all_slugs:
+                all_slugs.append(c["slug"])
             
     if latest and latest.get("data"):
-        for c in latest["data"][:15]:
+        for c in latest["data"]:
             if c["slug"] not in all_slugs:
                 all_slugs.append(c["slug"])
 
-    print(f"[*] Caching details for {len(all_slugs)} top comics...")
+    top_series = [
+        "229848-solo-leveling",
+        "martial-peak",
+        "155895-nano-machine",
+        "447206-the-beginning-after-the-end",
+        "846048-eleceed",
+        "950565-lookism",
+        "one-piece-id"
+    ]
+
+    print(f"[*] Caching details for ALL {len(all_slugs)} comics...")
     for c_slug in all_slugs:
-        if c_slug != "229848-solo-leveling":
-            detail_file = f"data/comics/{c_slug}.json"
-            if not os.path.exists(detail_file):
-                cd = fetch_json(f"{BASE_API}/comic?slug={c_slug}")
-                if cd and cd.get("status") == "success":
-                    save_json(detail_file, cd["data"])
-                    # Fetch first chapter of each if not already saved
-                    if cd["data"].get("chapters") and len(cd["data"]["chapters"]) > 0:
-                        first_ch = cd["data"]["chapters"][-1]["slug"]
-                        first_ch_file = f"data/chapters/{first_ch}.json"
-                        if not os.path.exists(first_ch_file):
-                            first_data = fetch_json(f"{BASE_API}/chapter?slug={first_ch}")
-                            if first_data and first_data.get("status") == "success":
-                                save_json(first_ch_file, first_data["data"])
+        detail_file = f"data/comics/{c_slug}.json"
+        cd_data = None
+        if os.path.exists(detail_file):
+            try:
+                with open(detail_file, 'r', encoding='utf-8') as f:
+                    cd_data = json.load(f)
+            except Exception:
+                pass
+
+        if not cd_data:
+            cd = fetch_json(f"{BASE_API}/comic?slug={c_slug}")
+            if cd and cd.get("status") == "success":
+                cd_data = cd["data"]
+                save_json(detail_file, cd_data)
+
+        # Cache chapters
+        if cd_data and cd_data.get("chapters") and len(cd_data["chapters"]) > 0:
+            chapters_list = cd_data["chapters"]
+            # If top series, cache first 3-5 chapters
+            target_chapters = chapters_list[-3:] if c_slug in top_series else chapters_list[-1:]
+            for ch in target_chapters:
+                ch_slug = ch["slug"]
+                first_ch_file = f"data/chapters/{ch_slug}.json"
+                if not os.path.exists(first_ch_file):
+                    first_data = fetch_json(f"{BASE_API}/chapter?slug={ch_slug}")
+                    if first_data and first_data.get("status") == "success":
+                        save_json(first_ch_file, first_data["data"])
+
+    # 4. Generate Master Index (data/comics_index.json)
+    print("[*] Generating master comics index (data/comics_index.json)...")
+    comics_dir = "data/comics"
+    if os.path.exists(comics_dir):
+        comic_items = []
+        for f in os.listdir(comics_dir):
+            if f.endswith('.json'):
+                try:
+                    with open(os.path.join(comics_dir, f), 'r', encoding='utf-8') as fp:
+                        d = json.load(fp)
+                        chs = d.get('chapters', [])
+                        latest_ch = chs[0]['title'] if chs else "Chapter 1"
+                        first_ch = chs[-1]['slug'] if chs else f"{d.get('slug')}-chapter-1"
+                        comic_items.append({
+                            "id": d.get('slug') or d.get('id'),
+                            "slug": d.get('slug') or d.get('id'),
+                            "title": d.get('title'),
+                            "coverImage": d.get('coverImage') or d.get('cover'),
+                            "type": d.get('type', 'Manhwa'),
+                            "status": d.get('status', 'Ongoing'),
+                            "rating": d.get('rating', 9.5),
+                            "genres": d.get('genres', []),
+                            "author": d.get('author', 'Author'),
+                            "synopsis": d.get('synopsis', ''),
+                            "totalChapters": len(chs),
+                            "latestChapter": latest_ch,
+                            "firstChapterSlug": first_ch,
+                            "isColor": d.get('type') != 'Manga'
+                        })
+                except Exception as e:
+                    pass
+        comic_items.sort(key=lambda c: (c['rating'], c['totalChapters']), reverse=True)
+        save_json("data/comics_index.json", comic_items)
+        print(f"[OK] Master index contains {len(comic_items)} comics!")
 
     print("[DONE] Static data generation completed successfully!")
 
 if __name__ == '__main__':
     main()
+

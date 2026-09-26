@@ -248,18 +248,31 @@ def get_chapter_pages(chapter_slug):
     title = clean_text(t_m.group(1)) if t_m else chapter_slug.replace('-', ' ').title()
 
     # Extract all real pages from readerarea
-    all_imgs = re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', html)
-    manga_pages = [
-        img for img in all_imgs
-        if ('/data/' in img or '.jpg' in img or '.webp' in img)
-        and 'blogger' not in img
-        and 'komikindo-e' not in img
-        and 'fav.png' not in img
-    ]
+    reader_match = re.search(r'id=["\']readerarea["\'][^>]*>(.*?)</div>\s*<(div|footer|script)', html, re.DOTALL)
+    if not reader_match:
+        reader_match = re.search(r'id=["\']readerarea["\'][^>]*>(.*?)</div>', html, re.DOTALL)
+    
+    target_html = reader_match.group(1) if reader_match else html
+    all_imgs = re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', target_html)
+    
+    manga_pages = []
+    seen = set()
+    for img in all_imgs:
+        img_clean = img.strip()
+        if not img_clean or img_clean in seen:
+            continue
+        # Filter out icons, logo, thumbnails
+        if any(bad in img_clean.lower() for bad in ['fav.png', 'komikindo-e', 'logo', 'banner', 'avatar', '211x285', '236x319', '236x315']):
+            continue
+        # Match valid comic panel domains or paths
+        if any(valid in img_clean for valid in ['/data/', '.jpg', '.webp', '.jpeg', '.gif', '.png', 'googleusercontent', 'imageainewgeneration', 'himmga', 'aicontent', 'indocontent', 'gaimgame', 'contentkere']):
+            manga_pages.append(img_clean)
+            seen.add(img_clean)
 
     # Comic detail link / slug
     comic_link_m = re.search(r'<a href="https://komikindo\.ch/komik/([^/]+)/"[^>]*>Daftar Chapter</a>', html)
     comic_slug = comic_link_m.group(1) if comic_link_m else ""
+
 
     # Next / Prev chapter
     next_m = re.search(r'<a[^>]+href="https://komikindo\.ch/([^/]+)/"[^>]*>Chapter Selanjutnya', html)

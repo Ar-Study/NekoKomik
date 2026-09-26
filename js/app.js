@@ -11,6 +11,90 @@ const App = {
   cachedPopular: [],
   cachedLatest: [],
   currentComicDetail: null,
+  currentHeroIndex: 0,
+  heroAutoTimer: null,
+  featuredHeroes: [
+    {
+      id: "229848-solo-leveling",
+      slug: "229848-solo-leveling",
+      title: "Solo Leveling",
+      tag: "🔥 Manhwa Terpopuler #1",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg",
+      type: "Manhwa",
+      rating: "9.8",
+      votes: "14,820",
+      status: "Tamat",
+      totalChapters: "179",
+      releaseYear: "2018",
+      firstChapterSlug: "solo-leveling-chapter-1",
+      synopsis: "10 tahun lalu, Gerbang terbuka menghubungkan dunia manusia dengan monster. Sung Jin-Woo, pemburu peringkat-E terlemah di dunia, menemukan sistem rahasia untuk naik level tanpa batas!",
+      genres: ["Action", "Adventure", "Fantasy", "Supernatural"]
+    },
+    {
+      id: "155895-nano-machine",
+      slug: "155895-nano-machine",
+      title: "Nano Machine",
+      tag: "⚡ Murim Sci-Fi Populer",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Nano-Machine-223x319.jpg",
+      type: "Manhwa",
+      rating: "9.7",
+      votes: "9,420",
+      status: "Berjalan",
+      totalChapters: "250+",
+      releaseYear: "2020",
+      firstChapterSlug: "nano-machine-chapter-1",
+      synopsis: "Cheon Yeo-Woon, pangeran terbuang dari Sekte Iblis, menerima suntikan Nano Machine dari keturunan masa depannya. Kini takdirnya untuk menguasai dunia persilatan dimulai!",
+      genres: ["Action", "Martial Arts", "Sci-Fi", "Murim"]
+    },
+    {
+      id: "martial-peak",
+      slug: "martial-peak",
+      title: "Martial Peak",
+      tag: "⚔️ Epik Kultivasi Terpanjang",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Martial-Peak-236x315.jpg",
+      type: "Manhua",
+      rating: "9.5",
+      votes: "21,500",
+      status: "Berjalan",
+      totalChapters: "3700+",
+      releaseYear: "2018",
+      firstChapterSlug: "martial-peak-chapter-1",
+      synopsis: "Puncak bela diri adalah perjalanan yang sepi dan berbahaya. Yang Kai, seorang penyapu lantai paviliun Lingxiao, menemukan Kitab Hitam tanpa kata yang mengubah takdirnya!",
+      genres: ["Action", "Fantasy", "Martial Arts", "Cultivation"]
+    },
+    {
+      id: "447206-the-beginning-after-the-end",
+      slug: "447206-the-beginning-after-the-end",
+      title: "The Beginning After The End",
+      tag: "👑 Reinkarnasi Sihir Terbaik",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-The-Beginning-After-The-End-236x315.jpg",
+      type: "Manhwa",
+      rating: "9.8",
+      votes: "11,200",
+      status: "Berjalan",
+      totalChapters: "190+",
+      releaseYear: "2018",
+      firstChapterSlug: "the-beginning-after-the-end-chapter-1",
+      synopsis: "Raja Grey memiliki kekuasaan dan prestise tak tertandingi di dunia militer. Namun, ia terlahir kembali di dunia sihir sebagai Arthur Leywin untuk mengukir takdir baru yang damai!",
+      genres: ["Action", "Adventure", "Fantasy", "Isekai"]
+    },
+    {
+      id: "950565-lookism",
+      slug: "950565-lookism",
+      title: "Lookism",
+      tag: "🥊 Aksi Tawuran & Gang Korea",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Lookism-236x319.jpeg",
+      type: "Manhwa",
+      rating: "9.7",
+      votes: "13,600",
+      status: "Berjalan",
+      totalChapters: "520+",
+      releaseYear: "2014",
+      firstChapterSlug: "lookism-chapter-1",
+      synopsis: "Park Hyung-suk, seorang siswa sekolah yang sering dirundung, tiba-tiba terbangun dengan tubuh kedua yang rupawan dan tangguh. Kehidupan gandanya yang seru pun dimulai!",
+      genres: ["Action", "Drama", "School", "Supernatural"]
+    }
+  ],
 
   init() {
     this.initTheme();
@@ -57,6 +141,7 @@ const App = {
   // --- Router ---
   handleRouting() {
     const hash = window.location.hash || "#home";
+    this.updateActiveNav(hash);
     
     // Close search dropdown on route change
     const searchDropdown = document.getElementById("search-results-dropdown");
@@ -80,6 +165,23 @@ const App = {
       this.openBookmarkModal("history");
     } else {
       this.showHome();
+    }
+  },
+
+  updateActiveNav(hash) {
+    document.querySelectorAll(".nav-link").forEach(l => l.classList.remove("active"));
+    document.querySelectorAll(".bottom-nav-item").forEach(l => l.classList.remove("active"));
+
+    if (hash.startsWith("#catalog")) {
+      document.getElementById("nav-catalog")?.classList.add("active");
+      document.getElementById("bnav-catalog")?.classList.add("active");
+    } else if (hash === "#bookmarks") {
+      document.getElementById("bnav-bookmarks")?.classList.add("active");
+    } else if (hash === "#history") {
+      document.getElementById("bnav-history")?.classList.add("active");
+    } else if (!hash || hash === "#home") {
+      document.getElementById("nav-home")?.classList.add("active");
+      document.getElementById("bnav-home")?.classList.add("active");
     }
   },
 
@@ -214,6 +316,11 @@ const App = {
       countBadge.textContent = list.length;
       countBadge.style.display = list.length > 0 ? "flex" : "none";
     }
+    const bnavBadge = document.getElementById("bnav-bookmark-badge");
+    if (bnavBadge) {
+      bnavBadge.textContent = list.length;
+      bnavBadge.style.display = list.length > 0 ? "inline-block" : "none";
+    }
   },
 
   // --- View: Home (Live from NekoKomik) ---
@@ -267,76 +374,123 @@ const App = {
     `).join("");
   },
 
-  async renderHeroBanner(heroContainer) {
+  renderHeroBanner(heroContainer) {
     if (!heroContainer) return;
-
-    // Solo Leveling is our flagship featured highlight
-    const isSaved = StorageService.isBookmarked("229848-solo-leveling");
+    const hero = this.featuredHeroes[this.currentHeroIndex];
+    const isSaved = StorageService.isBookmarked(hero.slug);
+    const badgeClass = hero.type === "Manhwa" ? "badge-manhwa" : hero.type === "Manga" ? "badge-manga" : "badge-manhua";
 
     heroContainer.innerHTML = `
       <div class="container">
-        <div class="hero-card">
+        <div class="hero-card" id="hero-active-card">
           <div class="hero-cover-wrapper">
-            <img src="https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg" alt="Solo Leveling" referrerpolicy="no-referrer" />
+            <img src="${hero.coverImage}" alt="${hero.title}" referrerpolicy="no-referrer" />
             <div class="hero-badges-floating">
-              <span class="badge badge-hot">🔥 POPULER</span>
-              <span class="badge badge-manhwa">MANHWA</span>
+              <span class="badge badge-hot">${hero.tag}</span>
+              <span class="badge ${badgeClass}">${hero.type}</span>
               <span class="badge badge-color">BERWARNA</span>
             </div>
           </div>
 
           <div class="hero-content">
-            <div class="hero-tag">⚡ Manhwa Populer di KomikIndo</div>
-            <h1 class="hero-title">Solo Leveling</h1>
+            <div class="hero-tag">⚡ Sorotan Komik Pilihan NekoKomik</div>
+            <h1 class="hero-title">${hero.title}</h1>
             <div class="hero-meta">
-              <span class="meta-rating">⭐ 9.8 (14,820 votes)</span>
-              <span>• Status: <strong style="color: #10b981;">Tamat / End</strong></span>
-              <span>• Total: <strong>179 Chapter</strong></span>
-              <span>• Rilis: <strong>2018</strong></span>
+              <span class="meta-rating">⭐ ${hero.rating} (${hero.votes} votes)</span>
+              <span>• Status: <strong style="color: #10b981;">${hero.status}</strong></span>
+              <span>• Total: <strong>${hero.totalChapters} Chapter</strong></span>
+              <span>• Rilis: <strong>${hero.releaseYear}</strong></span>
             </div>
 
             <p class="hero-synopsis">
-              10 tahun yang lalu, setelah "Gerbang" yang menghubungkan dunia nyata dengan dunia monster terbuka, beberapa orang biasa menerima kekuatan untuk berburu monster di dalam Gerbang. Mereka dikenal sebagai "Pemburu". Sung Jin-Woo, pemburu terlemah di dunia, menemukan rahasia sistem untuk naik level tanpa batas!
+              ${hero.synopsis}
             </p>
 
             <div class="hero-genres">
-              <span class="genre-pill">Action</span>
-              <span class="genre-pill">Adventure</span>
-              <span class="genre-pill">Fantasy</span>
-              <span class="genre-pill">Supernatural</span>
-              <span class="genre-pill" style="border-color: rgba(6,182,212,0.3); color: #67e8f9;">#Magic</span>
-              <span class="genre-pill" style="border-color: rgba(6,182,212,0.3); color: #67e8f9;">#Dungeon</span>
+              ${hero.genres.map(g => `<span class="genre-pill">${g}</span>`).join("")}
             </div>
 
             <div class="hero-actions">
-              <a href="#comic/229848-solo-leveling" class="btn btn-primary">
-                📖 Buka Detail & Chapter
+              <a href="#read/${hero.slug}/${hero.firstChapterSlug}" class="btn btn-primary" style="padding: 10px 20px; font-weight: 700;">
+                🚀 Mulai Baca Chapter 1
               </a>
-              <a href="#read/229848-solo-leveling/solo-leveling-chapter-1" class="btn btn-secondary">
-                🚀 Baca Chapter 1 (KomikIndo Asli)
+              <a href="#comic/${hero.slug}" class="btn btn-secondary">
+                📖 Detail & Chapter
               </a>
               <button class="btn btn-secondary" id="hero-bookmark-btn">
-                ${isSaved ? '❤️ Tersimpan di Favorit' : '⭐ Bookmark'}
+                ${isSaved ? '❤️ Favorit' : '⭐ Bookmark'}
               </button>
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="hero-controls">
+              <div class="carousel-indicators">
+                ${this.featuredHeroes.map((h, i) => `
+                  <button class="indicator-pill ${i === this.currentHeroIndex ? 'active' : ''}" data-index="${i}" title="${h.title}" aria-label="Slide ${i+1}"></button>
+                `).join("")}
+              </div>
+              <div class="carousel-arrows">
+                <button class="carousel-arrow-btn" id="hero-prev-btn" aria-label="Komik Sebelumnya">‹</button>
+                <button class="carousel-arrow-btn" id="hero-next-btn" aria-label="Komik Berikutnya">›</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     `;
 
+    // Bookmark toggle
     document.getElementById("hero-bookmark-btn")?.addEventListener("click", () => {
       const nowSaved = StorageService.toggleBookmark({
-        id: "229848-solo-leveling",
-        title: "Solo Leveling",
-        coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg",
-        type: "Manhwa",
-        rating: 9.8,
-        totalChapters: 179
+        id: hero.slug,
+        title: hero.title,
+        coverImage: hero.coverImage,
+        type: hero.type,
+        rating: parseFloat(hero.rating),
+        totalChapters: parseInt(hero.totalChapters, 10) || 100
       });
       this.updateBookmarkCount();
-      this.showToast(nowSaved ? "Solo Leveling ditambahkan ke Favorit!" : "Solo Leveling dihapus dari Favorit.");
+      this.showToast(nowSaved ? `${hero.title} ditambahkan ke Favorit!` : `${hero.title} dihapus dari Favorit.`);
       this.renderHeroBanner(heroContainer);
     });
+
+    // Arrow navigation
+    document.getElementById("hero-prev-btn")?.addEventListener("click", () => {
+      this.currentHeroIndex = (this.currentHeroIndex - 1 + this.featuredHeroes.length) % this.featuredHeroes.length;
+      this.renderHeroBanner(heroContainer);
+      this.resetHeroTimer(heroContainer);
+    });
+
+    document.getElementById("hero-next-btn")?.addEventListener("click", () => {
+      this.currentHeroIndex = (this.currentHeroIndex + 1) % this.featuredHeroes.length;
+      this.renderHeroBanner(heroContainer);
+      this.resetHeroTimer(heroContainer);
+    });
+
+    // Indicators click
+    heroContainer.querySelectorAll(".indicator-pill").forEach(btn => {
+      btn.addEventListener("click", () => {
+        this.currentHeroIndex = parseInt(btn.dataset.index, 10);
+        this.renderHeroBanner(heroContainer);
+        this.resetHeroTimer(heroContainer);
+      });
+    });
+
+    this.startHeroAutoTimer(heroContainer);
+  },
+
+  startHeroAutoTimer(heroContainer) {
+    if (this.heroAutoTimer) return;
+    this.heroAutoTimer = setInterval(() => {
+      this.currentHeroIndex = (this.currentHeroIndex + 1) % this.featuredHeroes.length;
+      this.renderHeroBanner(heroContainer);
+    }, 6000);
+  },
+
+  resetHeroTimer(heroContainer) {
+    clearInterval(this.heroAutoTimer);
+    this.heroAutoTimer = null;
+    this.startHeroAutoTimer(heroContainer);
   },
 
   renderComicsGrid(parent, comics) {
@@ -444,15 +598,15 @@ const App = {
               <div class="detail-poster-img">
                 <img src="${coverSrc}" alt="${comic.title}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg';" />
               </div>
-              <img src="${comic.coverImage}" alt="${comic.title}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg';" />
+              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-top: 14px;">
+                <button class="btn ${isSaved ? 'btn-primary' : 'btn-secondary'}" id="detail-bookmark-btn" style="width: 100%;">
+                  ${isSaved ? '❤️ Tersimpan di Favorit' : '⭐ Tambah ke Favorit'}
+                </button>
+                <button class="btn btn-secondary" id="detail-share-btn" style="width: 100%; font-size: 0.85rem;">
+                  🔗 Bagikan Komik
+                </button>
+              </div>
             </div>
-            <button class="btn ${isSaved ? 'btn-primary' : 'btn-secondary'}" id="detail-bookmark-btn" style="width: 100%;">
-              ${isSaved ? '❤️ Tersimpan di Bookmark' : '⭐ Tambah ke Bookmark'}
-            </button>
-            <button class="btn btn-secondary" id="detail-share-btn" style="width: 100%; font-size: 0.85rem;">
-              🔗 Bagikan Komik
-            </button>
-          </div>
 
           <div class="detail-info-col">
             <div style="display: flex; gap: 8px; margin-bottom: 10px;">
@@ -529,12 +683,17 @@ const App = {
         <!-- Chapters List Section -->
         <section class="chapters-section">
           <div class="chapters-head-bar">
-            <h2 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800;">
-              Daftar Chapter (${chapters.length} Chapter Asli)
-            </h2>
+            <div>
+              <h2 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800; margin-bottom: 4px;">
+                Daftar Chapter
+              </h2>
+              <span class="chapter-count-chip" id="chapter-counter-chip">
+                Menampilkan ${chapters.length} chapter
+              </span>
+            </div>
 
             <div class="chapter-search-box">
-              <input type="text" id="chapter-filter-input" class="chapter-search-input" placeholder="Cari chapter (cth: 1)..." />
+              <input type="text" id="chapter-filter-input" class="chapter-search-input" placeholder="Cari nomor chapter (cth: 1, 10)..." />
               <button class="btn btn-secondary" id="sort-order-btn" style="padding: 8px 12px; font-size: 0.8rem;">
                 ${this.currentSortOrder === 'desc' ? '⬇ Terbaru' : '⬆ Terlama'}
               </button>
@@ -658,8 +817,14 @@ const App = {
       );
     }
 
+    // Update chapter counter chip if present
+    const counterChip = document.getElementById("chapter-counter-chip");
+    if (counterChip) {
+      counterChip.textContent = `Menampilkan ${chapters.length} dari ${(comic.chapters || []).length} chapter`;
+    }
+
     if (chapters.length === 0) {
-      listContainer.innerHTML = `<div style="text-align: center; color: var(--text-dim); padding: 24px;">Tidak ada chapter yang sesuai.</div>`;
+      listContainer.innerHTML = `<div style="text-align: center; color: var(--text-dim); padding: 24px;">Tidak ada chapter yang sesuai dengan pencarian "${filterKeyword}".</div>`;
       return;
     }
 
@@ -675,7 +840,7 @@ const App = {
             ${isRead ? '<span style="font-size: 0.72rem; color: #a78bfa; font-weight: 700;">✓ Terakhir Dibaca</span>' : ''}
           </div>
           <div class="chapter-right">
-            <span>📅 ${ch.releaseDate}</span>
+            <span>📅 ${ch.releaseDate || 'Rilis'}</span>
             <span style="font-size: 1.1rem; color: var(--accent-primary);">›</span>
           </div>
         </a>
@@ -726,9 +891,10 @@ const App = {
     });
   },
 
-  // --- View: Catalog ---
+  // --- View: Catalog (Koleksi Lengkap 60+ Komik) ---
+  // --- View: Catalog (Koleksi Lengkap 70+ Komik dari NekoKomik) ---
   async showCatalog() {
-    document.title = "Jelajah Komik - NekoKomik";
+    document.title = "Jelajah Komik Lengkap - NekoKomik";
     document.getElementById("home-view-container").style.display = "none";
     document.getElementById("reader-view-container").style.display = "none";
     document.getElementById("comic-detail-container").style.display = "none";
@@ -737,15 +903,47 @@ const App = {
 
     catalogContainer.innerHTML = `
       <div class="container" style="padding: 30px 20px 60px;">
-        <div class="section-head" style="flex-wrap: wrap; gap: 14px;">
-          <h1 class="section-title">
-            <span class="section-title-icon">📚</span> Jelajah Komik
-          </h1>
-          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-            <button class="genre-pill active" id="filter-all" data-type="all">🔥 Semua</button>
-            <button class="genre-pill" id="filter-manhwa" data-type="Manhwa">🇰🇷 Manhwa</button>
-            <button class="genre-pill" id="filter-manga" data-type="Manga">🇯🇵 Manga</button>
-            <button class="genre-pill" id="filter-manhua" data-type="Manhua">🇨🇳 Manhua</button>
+        <div class="section-head" style="flex-direction: column; align-items: flex-start; gap: 16px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: wrap; gap: 14px;">
+            <div>
+              <h1 class="section-title">
+                <span class="section-title-icon">📚</span> Jelajah Semua Komik
+              </h1>
+              <span class="chapter-count-chip" id="catalog-count-badge" style="margin-top: 6px; display: inline-block;">
+                Memuat katalog komik...
+              </span>
+            </div>
+            
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+              <!-- Sort Select -->
+              <select class="reader-select" id="catalog-sort-select" title="Urutan Komik">
+                <option value="popular">🔥 Terpopuler</option>
+                <option value="rating">⭐ Rating Tertinggi</option>
+                <option value="chapters">📚 Chapter Terbanyak</option>
+                <option value="az">🔤 Judul (A - Z)</option>
+              </select>
+
+              <!-- Search in Catalog Input -->
+              <div style="position: relative; width: 260px; max-width: 100%;">
+                <input type="text" id="catalog-search-filter" class="search-input" placeholder="Cari judul / genre..." style="padding-left: 36px;" />
+                <span class="search-icon">🔍</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Type and Genre Filter Pills -->
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;" id="catalog-filter-pills">
+            <button class="genre-pill active" data-filter="all">🔥 Semua</button>
+            <button class="genre-pill" data-filter="Manhwa">🇰🇷 Manhwa</button>
+            <button class="genre-pill" data-filter="Manga">🇯🇵 Manga</button>
+            <button class="genre-pill" data-filter="Manhua">🇨🇳 Manhua</button>
+            <button class="genre-pill" data-filter="Action">⚔️ Action</button>
+            <button class="genre-pill" data-filter="Fantasy">✨ Fantasy</button>
+            <button class="genre-pill" data-filter="Martial Arts">🥋 Martial Arts</button>
+            <button class="genre-pill" data-filter="Romance">💖 Romance</button>
+            <button class="genre-pill" data-filter="Adventure">🗺️ Adventure</button>
+            <button class="genre-pill" data-filter="Supernatural">🔮 Supernatural</button>
+            <button class="genre-pill" data-filter="Comedy">😂 Comedy</button>
           </div>
         </div>
 
@@ -755,33 +953,89 @@ const App = {
       </div>
     `;
 
-    const allComics = await ComicAPI.getLatestComics(1);
+    // Ambil koleksi komik lengkap dari master index data/comics_index.json
+    const allComics = await ComicAPI.getAllCatalogComics();
+
     const grid = document.getElementById("catalog-grid-results");
-    
-    // Check url params for type
-    const hash = window.location.hash;
-    let initialType = "all";
-    if (hash.includes("type=manhwa")) initialType = "Manhwa";
-    else if (hash.includes("type=manga")) initialType = "Manga";
-    else if (hash.includes("type=manhua")) initialType = "Manhua";
+    const countBadge = document.getElementById("catalog-count-badge");
+    const sortSelect = document.getElementById("catalog-sort-select");
+    let activeFilter = "all";
+    let searchVal = "";
+    let activeSort = "popular";
 
-    const filterAndRender = (type) => {
-      document.querySelectorAll(".genre-pill").forEach(p => p.classList.remove("active"));
-      const activePill = document.querySelector(`[data-type="${type}"]`);
-      if (activePill) activePill.classList.add("active");
+    const applyFilters = () => {
+      let filtered = [...allComics];
 
-      const filtered = type === "all" ? allComics : allComics.filter(c => (c.type || "").toLowerCase() === type.toLowerCase());
+      // Filter tipe / genre
+      if (activeFilter !== "all") {
+        const afLower = activeFilter.toLowerCase();
+        filtered = filtered.filter(c => 
+          (c.type && c.type.toLowerCase() === afLower) ||
+          (c.genres && c.genres.some(g => g.toLowerCase().includes(afLower))) ||
+          (c.title && c.title.toLowerCase().includes(afLower))
+        );
+      }
+
+      // Filter kata kunci pencarian
+      if (searchVal) {
+        const sLower = searchVal.toLowerCase();
+        filtered = filtered.filter(c => 
+          (c.title && c.title.toLowerCase().includes(sLower)) ||
+          (c.type && c.type.toLowerCase().includes(sLower)) ||
+          (c.genres && c.genres.some(g => g.toLowerCase().includes(sLower))) ||
+          (c.author && c.author.toLowerCase().includes(sLower))
+        );
+      }
+
+      // Sort logic
+      if (activeSort === "rating") {
+        filtered.sort((a, b) => (parseFloat(b.rating) || 0) - (parseFloat(a.rating) || 0));
+      } else if (activeSort === "chapters") {
+        filtered.sort((a, b) => (b.totalChapters || 0) - (a.totalChapters || 0));
+      } else if (activeSort === "az") {
+        filtered.sort((a, b) => a.title.localeCompare(b.title));
+      } else {
+        // Popular default
+        filtered.sort((a, b) => ((b.rating || 0) * (b.totalChapters || 1)) - ((a.rating || 0) * (a.totalChapters || 1)));
+      }
+
+      if (countBadge) {
+        countBadge.textContent = `Menampilkan ${filtered.length} dari ${allComics.length} komik lengkap`;
+      }
+
       this.renderComicsGrid(grid, filtered);
     };
 
-    filterAndRender(initialType);
+    // Cek parameter hash (misal #catalog?type=manhwa)
+    const hash = window.location.hash;
+    if (hash.includes("type=manhwa")) activeFilter = "Manhwa";
+    else if (hash.includes("type=manga")) activeFilter = "Manga";
+    else if (hash.includes("type=manhua")) activeFilter = "Manhua";
 
-    document.querySelectorAll("[data-type]").forEach(btn => {
+    document.querySelectorAll("#catalog-filter-pills [data-filter]").forEach(btn => {
+      if (btn.dataset.filter.toLowerCase() === activeFilter.toLowerCase()) {
+        document.querySelectorAll("#catalog-filter-pills [data-filter]").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+      }
       btn.addEventListener("click", () => {
-        filterAndRender(btn.dataset.type);
+        document.querySelectorAll("#catalog-filter-pills [data-filter]").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        activeFilter = btn.dataset.filter;
+        applyFilters();
       });
     });
 
+    document.getElementById("catalog-search-filter")?.addEventListener("input", (e) => {
+      searchVal = e.target.value.trim();
+      applyFilters();
+    });
+
+    sortSelect?.addEventListener("change", (e) => {
+      activeSort = e.target.value;
+      applyFilters();
+    });
+
+    applyFilters();
     window.scrollTo({ top: 0, behavior: "smooth" });
   },
 
