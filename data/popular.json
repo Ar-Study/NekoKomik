@@ -1,5 +1,17 @@
 [
   {
+    "id": "legend-of-star-general",
+    "slug": "legend-of-star-general",
+    "title": "Legend of Star General",
+    "url": "https://komikindo.ch/komik/legend-of-star-general/",
+    "coverImage": "https://komikindo.ch/wp-content/uploads/2021/12/Komik-Legend-of-Star-General-236x315.png",
+    "type": "Manhua",
+    "isColor": true,
+    "rating": 9.8,
+    "latestChapter": "Chapter 393",
+    "chapterDate": "Baru saja"
+  },
+  {
     "id": "229848-solo-leveling",
     "slug": "229848-solo-leveling",
     "title": "Solo Leveling",

@@ -1,5 +1,25 @@
 [
   {
+    "id": "legend-of-star-general",
+    "slug": "legend-of-star-general",
+    "title": "Legend of Star General",
+    "coverImage": "https://komikindo.ch/wp-content/uploads/2021/12/Komik-Legend-of-Star-General-236x315.png",
+    "type": "Shounen",
+    "status": "Berjalan",
+    "rating": 9.6,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Mecha"
+    ],
+    "author": "乐想动漫",
+    "synopsis": "Manhua                    Legend of Star General yang dibuat oleh komikus bernama\n                    乐想动漫 ini bercerita tentang\n                    Song Yunxiang, Jenderal Jiwa Bintang terakhir dari Ras Manusia, membawa sistem kembali ke era kampus. Ketika remaja, ia dibutakan oleh jiwa yang tidak utuh, karena ia lemah dan hanya bisa menyaksikan kerabat dan teman-temannya mati di hadapannya.\r\n\r\nDalam kehidupan ini, ia kembali dengan kelahiran kembali sistem, dengan 60 tahun pengalaman tempur dan pengetahuan dan teknologi, dan kembali ke sekolah. Sejak saat itu, dia biasa membangun mecha untuk melawan monster…\r\n\r\nHal-hal yang disesali, orang-orang yang dirindukan, kali ini tidak akan meninggalkan penyesalan",
+    "totalChapters": 399,
+    "latestChapter": "Chapter 393",
+    "firstChapterSlug": "legend-of-star-general-chapter-1",
+    "isColor": true
+  },
+  {
     "id": "martial-peak",
     "slug": "martial-peak",
     "title": "Martial Peak",

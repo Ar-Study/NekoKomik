@@ -15,9 +15,26 @@ const App = {
   heroAutoTimer: null,
   featuredHeroes: [
     {
+      id: "legend-of-star-general",
+      slug: "legend-of-star-general",
+      title: "Legend of Star General",
+      tag: "🚀 Manhua Sci-Fi Mecha Epik",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2021/12/Komik-Legend-of-Star-General-236x315.png",
+      type: "Manhua",
+      rating: "9.8",
+      votes: "16,420",
+      status: "Berjalan",
+      totalChapters: "399+",
+      releaseYear: "2021",
+      firstChapterSlug: "legend-of-star-general-chapter-1",
+      synopsis: "Song Yunxiang, master mekanik bintang terakhir ras manusia, terlahir kembali ke masa mudanya di akademi militer. Berbekal teknologi mecha Star General, ia siap membalikkan takdir galaksi!",
+      genres: ["Action", "Sci-Fi", "Mecha", "Reincarnation"]
+    },
+    {
       id: "229848-solo-leveling",
       slug: "229848-solo-leveling",
       title: "Solo Leveling",
+
       tag: "🔥 Manhwa Terpopuler #1",
       coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg",
       type: "Manhwa",
