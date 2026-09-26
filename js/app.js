@@ -47,6 +47,22 @@ const App = {
       genres: ["Action", "Fantasy", "Isekai", "Kingdom Building"]
     },
     {
+      id: "to-be-the-castellan-king",
+      slug: "to-be-the-castellan-king",
+      title: "To Be The Castellan King",
+      tag: "👑 Manhua Penguasa Kota Terhebat",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Starting-From-Today-Ill-Work-as-a-City-Lord-236x315.png",
+      type: "Manhua",
+      rating: "9.7",
+      votes: "14,350",
+      status: "Berjalan",
+      totalChapters: "552+",
+      releaseYear: "2019",
+      firstChapterSlug: "to-be-the-castellan-king-chapter-00",
+      synopsis: "Bertransmigrasi ke dunia sihir dan menjadi penguasa kota (City Lord). Berbekal pengetahuan modern dan sains canggih, ia memodernisasi kota terpencil menjadi metropolis metropolitan terkuat di benua fantasi!",
+      genres: ["Action", "Fantasy", "Isekai", "Comedy"]
+    },
+    {
       id: "229848-solo-leveling",
       slug: "229848-solo-leveling",
       title: "Solo Leveling",
