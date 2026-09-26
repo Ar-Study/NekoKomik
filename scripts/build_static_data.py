@@ -60,20 +60,33 @@ def main():
         if ch_data and ch_data.get("status") == "success":
             save_json(f"data/chapters/{ch_slug}.json", ch_data["data"])
 
-    # 3. Top comics from latest
+    # 3. Top comics from popular & latest
+    all_slugs = []
+    if popular and popular.get("data"):
+        for c in popular["data"][:15]:
+            all_slugs.append(c["slug"])
+            
     if latest and latest.get("data"):
-        for c in latest["data"][:8]:
-            c_slug = c["slug"]
-            if c_slug != "229848-solo-leveling":
+        for c in latest["data"][:15]:
+            if c["slug"] not in all_slugs:
+                all_slugs.append(c["slug"])
+
+    print(f"[*] Caching details for {len(all_slugs)} top comics...")
+    for c_slug in all_slugs:
+        if c_slug != "229848-solo-leveling":
+            detail_file = f"data/comics/{c_slug}.json"
+            if not os.path.exists(detail_file):
                 cd = fetch_json(f"{BASE_API}/comic?slug={c_slug}")
                 if cd and cd.get("status") == "success":
-                    save_json(f"data/comics/{c_slug}.json", cd["data"])
-                    # Also fetch first chapter of each
+                    save_json(detail_file, cd["data"])
+                    # Fetch first chapter of each if not already saved
                     if cd["data"].get("chapters") and len(cd["data"]["chapters"]) > 0:
                         first_ch = cd["data"]["chapters"][-1]["slug"]
-                        first_data = fetch_json(f"{BASE_API}/chapter?slug={first_ch}")
-                        if first_data and first_data.get("status") == "success":
-                            save_json(f"data/chapters/{first_ch}.json", first_data["data"])
+                        first_ch_file = f"data/chapters/{first_ch}.json"
+                        if not os.path.exists(first_ch_file):
+                            first_data = fetch_json(f"{BASE_API}/chapter?slug={first_ch}")
+                            if first_data and first_data.get("status") == "success":
+                                save_json(first_ch_file, first_data["data"])
 
     print("[DONE] Static data generation completed successfully!")
 

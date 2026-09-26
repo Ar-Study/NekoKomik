@@ -1,0 +1,4479 @@
+{
+  "id": "183821-wind-breaker",
+  "slug": "183821-wind-breaker",
+  "title": "Wind Breaker",
+  "coverImage": "https://komikindo.ch/wp-content/uploads/2021/04/Komik-Wind-Breaker-231x319.jpg",
+  "synopsis": "Manhwa                    Wind Breaker yang dibuat oleh komikus bernama\n                    Jo Yong Seok ini bercerita tentang\n                    Jay adalah presiden siswa SMA Sunny. Dia tidak hanya seorang siswa yang cerdas tetapi seorang pengendara sepeda yang memiliki teknik tingkat tinggi. Saat Anda mengikuti sepedanya, Anda akan bertemu dengan teman, cinta, dan petualangannya. Bertemu dengan para monster yang juga memiliki kemampuan sepeda yang luar biasa.",
+  "status": "Berjalan",
+  "author": "Jo Yong Seok",
+  "artist": "Jo Yong Seok",
+  "type": "Shounen",
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "themes": [
+    "Magic",
+    "Monsters"
+  ],
+  "rating": 9.5,
+  "totalChapters": 557,
+  "chapters": [
+    {
+      "id": "wind-breaker-chapter-556",
+      "slug": "wind-breaker-chapter-556",
+      "title": "Chapter 556",
+      "url": "https://komikindo.ch/wind-breaker-chapter-556/",
+      "releaseDate": "8 bulan yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-555",
+      "slug": "wind-breaker-chapter-555",
+      "title": "Chapter 555",
+      "url": "https://komikindo.ch/wind-breaker-chapter-555/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-554",
+      "slug": "wind-breaker-chapter-554",
+      "title": "Chapter 554",
+      "url": "https://komikindo.ch/wind-breaker-chapter-554/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-553",
+      "slug": "wind-breaker-chapter-553",
+      "title": "Chapter 553",
+      "url": "https://komikindo.ch/wind-breaker-chapter-553/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-552",
+      "slug": "wind-breaker-chapter-552",
+      "title": "Chapter 552",
+      "url": "https://komikindo.ch/wind-breaker-chapter-552/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-551",
+      "slug": "wind-breaker-chapter-551",
+      "title": "Chapter 551",
+      "url": "https://komikindo.ch/wind-breaker-chapter-551/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-550",
+      "slug": "wind-breaker-chapter-550",
+      "title": "Chapter 550",
+      "url": "https://komikindo.ch/wind-breaker-chapter-550/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-549",
+      "slug": "wind-breaker-chapter-549",
+      "title": "Chapter 549",
+      "url": "https://komikindo.ch/wind-breaker-chapter-549/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-548",
+      "slug": "wind-breaker-chapter-548",
+      "title": "Chapter 548",
+      "url": "https://komikindo.ch/wind-breaker-chapter-548/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-547",
+      "slug": "wind-breaker-chapter-547",
+      "title": "Chapter 547",
+      "url": "https://komikindo.ch/wind-breaker-chapter-547/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-546",
+      "slug": "wind-breaker-chapter-546",
+      "title": "Chapter 546",
+      "url": "https://komikindo.ch/wind-breaker-chapter-546/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-545",
+      "slug": "wind-breaker-chapter-545",
+      "title": "Chapter 545",
+      "url": "https://komikindo.ch/wind-breaker-chapter-545/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-544",
+      "slug": "wind-breaker-chapter-544",
+      "title": "Chapter 544",
+      "url": "https://komikindo.ch/wind-breaker-chapter-544/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-543",
+      "slug": "wind-breaker-chapter-543",
+      "title": "Chapter 543",
+      "url": "https://komikindo.ch/wind-breaker-chapter-543/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-542",
+      "slug": "wind-breaker-chapter-542",
+      "title": "Chapter 542",
+      "url": "https://komikindo.ch/wind-breaker-chapter-542/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-541",
+      "slug": "wind-breaker-chapter-541",
+      "title": "Chapter 541",
+      "url": "https://komikindo.ch/wind-breaker-chapter-541/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-540",
+      "slug": "wind-breaker-chapter-540",
+      "title": "Chapter 540",
+      "url": "https://komikindo.ch/wind-breaker-chapter-540/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-539",
+      "slug": "wind-breaker-chapter-539",
+      "title": "Chapter 539",
+      "url": "https://komikindo.ch/wind-breaker-chapter-539/",
+      "releaseDate": "1 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-538",
+      "slug": "wind-breaker-chapter-538",
+      "title": "Chapter 538",
+      "url": "https://komikindo.ch/wind-breaker-chapter-538/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-537",
+      "slug": "wind-breaker-chapter-537",
+      "title": "Chapter 537",
+      "url": "https://komikindo.ch/wind-breaker-chapter-537/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-536",
+      "slug": "wind-breaker-chapter-536",
+      "title": "Chapter 536",
+      "url": "https://komikindo.ch/wind-breaker-chapter-536/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-535",
+      "slug": "wind-breaker-chapter-535",
+      "title": "Chapter 535",
+      "url": "https://komikindo.ch/wind-breaker-chapter-535/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-534",
+      "slug": "wind-breaker-chapter-534",
+      "title": "Chapter 534",
+      "url": "https://komikindo.ch/wind-breaker-chapter-534/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-533",
+      "slug": "wind-breaker-chapter-533",
+      "title": "Chapter 533",
+      "url": "https://komikindo.ch/wind-breaker-chapter-533/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-532",
+      "slug": "wind-breaker-chapter-532",
+      "title": "Chapter 532",
+      "url": "https://komikindo.ch/wind-breaker-chapter-532/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-531",
+      "slug": "wind-breaker-chapter-531",
+      "title": "Chapter 531",
+      "url": "https://komikindo.ch/wind-breaker-chapter-531/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-530",
+      "slug": "wind-breaker-chapter-530",
+      "title": "Chapter 530",
+      "url": "https://komikindo.ch/wind-breaker-chapter-530/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-529",
+      "slug": "wind-breaker-chapter-529",
+      "title": "Chapter 529",
+      "url": "https://komikindo.ch/wind-breaker-chapter-529/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-528",
+      "slug": "wind-breaker-chapter-528",
+      "title": "Chapter 528",
+      "url": "https://komikindo.ch/wind-breaker-chapter-528/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-527",
+      "slug": "wind-breaker-chapter-527",
+      "title": "Chapter 527",
+      "url": "https://komikindo.ch/wind-breaker-chapter-527/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-526",
+      "slug": "wind-breaker-chapter-526",
+      "title": "Chapter 526",
+      "url": "https://komikindo.ch/wind-breaker-chapter-526/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-525",
+      "slug": "wind-breaker-chapter-525",
+      "title": "Chapter 525",
+      "url": "https://komikindo.ch/wind-breaker-chapter-525/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-524",
+      "slug": "wind-breaker-chapter-524",
+      "title": "Chapter 524",
+      "url": "https://komikindo.ch/wind-breaker-chapter-524/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-523",
+      "slug": "wind-breaker-chapter-523",
+      "title": "Chapter 523",
+      "url": "https://komikindo.ch/wind-breaker-chapter-523/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-522",
+      "slug": "wind-breaker-chapter-522",
+      "title": "Chapter 522",
+      "url": "https://komikindo.ch/wind-breaker-chapter-522/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-521",
+      "slug": "wind-breaker-chapter-521",
+      "title": "Chapter 521",
+      "url": "https://komikindo.ch/wind-breaker-chapter-521/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-520",
+      "slug": "wind-breaker-chapter-520",
+      "title": "Chapter 520",
+      "url": "https://komikindo.ch/wind-breaker-chapter-520/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-519",
+      "slug": "wind-breaker-chapter-519",
+      "title": "Chapter 519",
+      "url": "https://komikindo.ch/wind-breaker-chapter-519/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-518",
+      "slug": "wind-breaker-chapter-518",
+      "title": "Chapter 518",
+      "url": "https://komikindo.ch/wind-breaker-chapter-518/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-517",
+      "slug": "wind-breaker-chapter-517",
+      "title": "Chapter 517",
+      "url": "https://komikindo.ch/wind-breaker-chapter-517/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-516",
+      "slug": "wind-breaker-chapter-516",
+      "title": "Chapter 516",
+      "url": "https://komikindo.ch/wind-breaker-chapter-516/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-515",
+      "slug": "wind-breaker-chapter-515",
+      "title": "Chapter 515",
+      "url": "https://komikindo.ch/wind-breaker-chapter-515/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-514",
+      "slug": "wind-breaker-chapter-514",
+      "title": "Chapter 514",
+      "url": "https://komikindo.ch/wind-breaker-chapter-514/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-513",
+      "slug": "wind-breaker-chapter-513",
+      "title": "Chapter 513",
+      "url": "https://komikindo.ch/wind-breaker-chapter-513/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-512",
+      "slug": "wind-breaker-chapter-512",
+      "title": "Chapter 512",
+      "url": "https://komikindo.ch/wind-breaker-chapter-512/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-511",
+      "slug": "wind-breaker-chapter-511",
+      "title": "Chapter 511",
+      "url": "https://komikindo.ch/wind-breaker-chapter-511/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-510",
+      "slug": "wind-breaker-chapter-510",
+      "title": "Chapter 510",
+      "url": "https://komikindo.ch/wind-breaker-chapter-510/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-509",
+      "slug": "wind-breaker-chapter-509",
+      "title": "Chapter 509",
+      "url": "https://komikindo.ch/wind-breaker-chapter-509/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-508",
+      "slug": "wind-breaker-chapter-508",
+      "title": "Chapter 508",
+      "url": "https://komikindo.ch/wind-breaker-chapter-508/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-507",
+      "slug": "wind-breaker-chapter-507",
+      "title": "Chapter 507",
+      "url": "https://komikindo.ch/wind-breaker-chapter-507/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-506",
+      "slug": "wind-breaker-chapter-506",
+      "title": "Chapter 506",
+      "url": "https://komikindo.ch/wind-breaker-chapter-506/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-505",
+      "slug": "wind-breaker-chapter-505",
+      "title": "Chapter 505",
+      "url": "https://komikindo.ch/wind-breaker-chapter-505/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-504",
+      "slug": "wind-breaker-chapter-504",
+      "title": "Chapter 504",
+      "url": "https://komikindo.ch/wind-breaker-chapter-504/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-503",
+      "slug": "wind-breaker-chapter-503",
+      "title": "Chapter 503",
+      "url": "https://komikindo.ch/wind-breaker-chapter-503/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-502",
+      "slug": "wind-breaker-chapter-502",
+      "title": "Chapter 502",
+      "url": "https://komikindo.ch/wind-breaker-chapter-502/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-501",
+      "slug": "wind-breaker-chapter-501",
+      "title": "Chapter 501",
+      "url": "https://komikindo.ch/wind-breaker-chapter-501/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-500",
+      "slug": "wind-breaker-chapter-500",
+      "title": "Chapter 500",
+      "url": "https://komikindo.ch/wind-breaker-chapter-500/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-499",
+      "slug": "wind-breaker-chapter-499",
+      "title": "Chapter 499",
+      "url": "https://komikindo.ch/wind-breaker-chapter-499/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-498",
+      "slug": "wind-breaker-chapter-498",
+      "title": "Chapter 498",
+      "url": "https://komikindo.ch/wind-breaker-chapter-498/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-497",
+      "slug": "wind-breaker-chapter-497",
+      "title": "Chapter 497",
+      "url": "https://komikindo.ch/wind-breaker-chapter-497/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-496",
+      "slug": "wind-breaker-chapter-496",
+      "title": "Chapter 496",
+      "url": "https://komikindo.ch/wind-breaker-chapter-496/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-495-5",
+      "slug": "wind-breaker-chapter-495-5",
+      "title": "Chapter 495.5",
+      "url": "https://komikindo.ch/wind-breaker-chapter-495-5/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-495",
+      "slug": "wind-breaker-chapter-495",
+      "title": "Chapter 495",
+      "url": "https://komikindo.ch/wind-breaker-chapter-495/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-494",
+      "slug": "wind-breaker-chapter-494",
+      "title": "Chapter 494",
+      "url": "https://komikindo.ch/wind-breaker-chapter-494/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-493",
+      "slug": "wind-breaker-chapter-493",
+      "title": "Chapter 493",
+      "url": "https://komikindo.ch/wind-breaker-chapter-493/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-492",
+      "slug": "wind-breaker-chapter-492",
+      "title": "Chapter 492",
+      "url": "https://komikindo.ch/wind-breaker-chapter-492/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-491",
+      "slug": "wind-breaker-chapter-491",
+      "title": "Chapter 491",
+      "url": "https://komikindo.ch/wind-breaker-chapter-491/",
+      "releaseDate": "2 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-490",
+      "slug": "wind-breaker-chapter-490",
+      "title": "Chapter 490",
+      "url": "https://komikindo.ch/wind-breaker-chapter-490/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-489",
+      "slug": "wind-breaker-chapter-489",
+      "title": "Chapter 489",
+      "url": "https://komikindo.ch/wind-breaker-chapter-489/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-488",
+      "slug": "wind-breaker-chapter-488",
+      "title": "Chapter 488",
+      "url": "https://komikindo.ch/wind-breaker-chapter-488/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-487",
+      "slug": "wind-breaker-chapter-487",
+      "title": "Chapter 487",
+      "url": "https://komikindo.ch/wind-breaker-chapter-487/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-486",
+      "slug": "wind-breaker-chapter-486",
+      "title": "Chapter 486",
+      "url": "https://komikindo.ch/wind-breaker-chapter-486/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-485",
+      "slug": "wind-breaker-chapter-485",
+      "title": "Chapter 485",
+      "url": "https://komikindo.ch/wind-breaker-chapter-485/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-484",
+      "slug": "wind-breaker-chapter-484",
+      "title": "Chapter 484",
+      "url": "https://komikindo.ch/wind-breaker-chapter-484/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-483",
+      "slug": "wind-breaker-chapter-483",
+      "title": "Chapter 483",
+      "url": "https://komikindo.ch/wind-breaker-chapter-483/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-482",
+      "slug": "wind-breaker-chapter-482",
+      "title": "Chapter 482",
+      "url": "https://komikindo.ch/wind-breaker-chapter-482/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-481",
+      "slug": "wind-breaker-chapter-481",
+      "title": "Chapter 481",
+      "url": "https://komikindo.ch/wind-breaker-chapter-481/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-480",
+      "slug": "wind-breaker-chapter-480",
+      "title": "Chapter 480",
+      "url": "https://komikindo.ch/wind-breaker-chapter-480/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-479",
+      "slug": "wind-breaker-chapter-479",
+      "title": "Chapter 479",
+      "url": "https://komikindo.ch/wind-breaker-chapter-479/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-478",
+      "slug": "wind-breaker-chapter-478",
+      "title": "Chapter 478",
+      "url": "https://komikindo.ch/wind-breaker-chapter-478/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-477",
+      "slug": "wind-breaker-chapter-477",
+      "title": "Chapter 477",
+      "url": "https://komikindo.ch/wind-breaker-chapter-477/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-476",
+      "slug": "wind-breaker-chapter-476",
+      "title": "Chapter 476",
+      "url": "https://komikindo.ch/wind-breaker-chapter-476/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-475",
+      "slug": "wind-breaker-chapter-475",
+      "title": "Chapter 475",
+      "url": "https://komikindo.ch/wind-breaker-chapter-475/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-474",
+      "slug": "wind-breaker-chapter-474",
+      "title": "Chapter 474",
+      "url": "https://komikindo.ch/wind-breaker-chapter-474/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-473",
+      "slug": "wind-breaker-chapter-473",
+      "title": "Chapter 473",
+      "url": "https://komikindo.ch/wind-breaker-chapter-473/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-472",
+      "slug": "wind-breaker-chapter-472",
+      "title": "Chapter 472",
+      "url": "https://komikindo.ch/wind-breaker-chapter-472/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-471",
+      "slug": "wind-breaker-chapter-471",
+      "title": "Chapter 471",
+      "url": "https://komikindo.ch/wind-breaker-chapter-471/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-470",
+      "slug": "wind-breaker-chapter-470",
+      "title": "Chapter 470",
+      "url": "https://komikindo.ch/wind-breaker-chapter-470/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-469",
+      "slug": "wind-breaker-chapter-469",
+      "title": "Chapter 469",
+      "url": "https://komikindo.ch/wind-breaker-chapter-469/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-468",
+      "slug": "wind-breaker-chapter-468",
+      "title": "Chapter 468",
+      "url": "https://komikindo.ch/wind-breaker-chapter-468/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-467",
+      "slug": "wind-breaker-chapter-467",
+      "title": "Chapter 467",
+      "url": "https://komikindo.ch/wind-breaker-chapter-467/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-466",
+      "slug": "wind-breaker-chapter-466",
+      "title": "Chapter 466",
+      "url": "https://komikindo.ch/wind-breaker-chapter-466/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-465",
+      "slug": "wind-breaker-chapter-465",
+      "title": "Chapter 465",
+      "url": "https://komikindo.ch/wind-breaker-chapter-465/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-464",
+      "slug": "wind-breaker-chapter-464",
+      "title": "Chapter 464",
+      "url": "https://komikindo.ch/wind-breaker-chapter-464/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-463",
+      "slug": "wind-breaker-chapter-463",
+      "title": "Chapter 463",
+      "url": "https://komikindo.ch/wind-breaker-chapter-463/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-462",
+      "slug": "wind-breaker-chapter-462",
+      "title": "Chapter 462",
+      "url": "https://komikindo.ch/wind-breaker-chapter-462/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-461",
+      "slug": "wind-breaker-chapter-461",
+      "title": "Chapter 461",
+      "url": "https://komikindo.ch/wind-breaker-chapter-461/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-460",
+      "slug": "wind-breaker-chapter-460",
+      "title": "Chapter 460",
+      "url": "https://komikindo.ch/wind-breaker-chapter-460/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-459",
+      "slug": "wind-breaker-chapter-459",
+      "title": "Chapter 459",
+      "url": "https://komikindo.ch/wind-breaker-chapter-459/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-458",
+      "slug": "wind-breaker-chapter-458",
+      "title": "Chapter 458",
+      "url": "https://komikindo.ch/wind-breaker-chapter-458/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-457",
+      "slug": "wind-breaker-chapter-457",
+      "title": "Chapter 457",
+      "url": "https://komikindo.ch/wind-breaker-chapter-457/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-456",
+      "slug": "wind-breaker-chapter-456",
+      "title": "Chapter 456",
+      "url": "https://komikindo.ch/wind-breaker-chapter-456/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-455",
+      "slug": "wind-breaker-chapter-455",
+      "title": "Chapter 455",
+      "url": "https://komikindo.ch/wind-breaker-chapter-455/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-454",
+      "slug": "wind-breaker-chapter-454",
+      "title": "Chapter 454",
+      "url": "https://komikindo.ch/wind-breaker-chapter-454/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-453",
+      "slug": "wind-breaker-chapter-453",
+      "title": "Chapter 453",
+      "url": "https://komikindo.ch/wind-breaker-chapter-453/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-452",
+      "slug": "wind-breaker-chapter-452",
+      "title": "Chapter 452",
+      "url": "https://komikindo.ch/wind-breaker-chapter-452/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-451",
+      "slug": "wind-breaker-chapter-451",
+      "title": "Chapter 451",
+      "url": "https://komikindo.ch/wind-breaker-chapter-451/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-450",
+      "slug": "wind-breaker-chapter-450",
+      "title": "Chapter 450",
+      "url": "https://komikindo.ch/wind-breaker-chapter-450/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-449",
+      "slug": "wind-breaker-chapter-449",
+      "title": "Chapter 449",
+      "url": "https://komikindo.ch/wind-breaker-chapter-449/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-448",
+      "slug": "wind-breaker-chapter-448",
+      "title": "Chapter 448",
+      "url": "https://komikindo.ch/wind-breaker-chapter-448/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-447",
+      "slug": "wind-breaker-chapter-447",
+      "title": "Chapter 447",
+      "url": "https://komikindo.ch/wind-breaker-chapter-447/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-446",
+      "slug": "wind-breaker-chapter-446",
+      "title": "Chapter 446",
+      "url": "https://komikindo.ch/wind-breaker-chapter-446/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-445",
+      "slug": "wind-breaker-chapter-445",
+      "title": "Chapter 445",
+      "url": "https://komikindo.ch/wind-breaker-chapter-445/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-444",
+      "slug": "wind-breaker-chapter-444",
+      "title": "Chapter 444",
+      "url": "https://komikindo.ch/wind-breaker-chapter-444/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-443",
+      "slug": "wind-breaker-chapter-443",
+      "title": "Chapter 443",
+      "url": "https://komikindo.ch/wind-breaker-chapter-443/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-442",
+      "slug": "wind-breaker-chapter-442",
+      "title": "Chapter 442",
+      "url": "https://komikindo.ch/wind-breaker-chapter-442/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-441",
+      "slug": "wind-breaker-chapter-441",
+      "title": "Chapter 441",
+      "url": "https://komikindo.ch/wind-breaker-chapter-441/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-440",
+      "slug": "wind-breaker-chapter-440",
+      "title": "Chapter 440",
+      "url": "https://komikindo.ch/wind-breaker-chapter-440/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-439",
+      "slug": "wind-breaker-chapter-439",
+      "title": "Chapter 439",
+      "url": "https://komikindo.ch/wind-breaker-chapter-439/",
+      "releaseDate": "3 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-438",
+      "slug": "wind-breaker-chapter-438",
+      "title": "Chapter 438",
+      "url": "https://komikindo.ch/wind-breaker-chapter-438/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-437",
+      "slug": "wind-breaker-chapter-437",
+      "title": "Chapter 437",
+      "url": "https://komikindo.ch/wind-breaker-chapter-437/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-436",
+      "slug": "wind-breaker-chapter-436",
+      "title": "Chapter 436",
+      "url": "https://komikindo.ch/wind-breaker-chapter-436/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-435",
+      "slug": "wind-breaker-chapter-435",
+      "title": "Chapter 435",
+      "url": "https://komikindo.ch/wind-breaker-chapter-435/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-434",
+      "slug": "wind-breaker-chapter-434",
+      "title": "Chapter 434",
+      "url": "https://komikindo.ch/wind-breaker-chapter-434/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-433",
+      "slug": "wind-breaker-chapter-433",
+      "title": "Chapter 433",
+      "url": "https://komikindo.ch/wind-breaker-chapter-433/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-432",
+      "slug": "wind-breaker-chapter-432",
+      "title": "Chapter 432",
+      "url": "https://komikindo.ch/wind-breaker-chapter-432/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-431",
+      "slug": "wind-breaker-chapter-431",
+      "title": "Chapter 431",
+      "url": "https://komikindo.ch/wind-breaker-chapter-431/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-430",
+      "slug": "wind-breaker-chapter-430",
+      "title": "Chapter 430",
+      "url": "https://komikindo.ch/wind-breaker-chapter-430/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-429",
+      "slug": "wind-breaker-chapter-429",
+      "title": "Chapter 429",
+      "url": "https://komikindo.ch/wind-breaker-chapter-429/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-428",
+      "slug": "wind-breaker-chapter-428",
+      "title": "Chapter 428",
+      "url": "https://komikindo.ch/wind-breaker-chapter-428/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-427",
+      "slug": "wind-breaker-chapter-427",
+      "title": "Chapter 427",
+      "url": "https://komikindo.ch/wind-breaker-chapter-427/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-426",
+      "slug": "wind-breaker-chapter-426",
+      "title": "Chapter 426",
+      "url": "https://komikindo.ch/wind-breaker-chapter-426/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-425",
+      "slug": "wind-breaker-chapter-425",
+      "title": "Chapter 425",
+      "url": "https://komikindo.ch/wind-breaker-chapter-425/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-424",
+      "slug": "wind-breaker-chapter-424",
+      "title": "Chapter 424",
+      "url": "https://komikindo.ch/wind-breaker-chapter-424/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-423",
+      "slug": "wind-breaker-chapter-423",
+      "title": "Chapter 423",
+      "url": "https://komikindo.ch/wind-breaker-chapter-423/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-422",
+      "slug": "wind-breaker-chapter-422",
+      "title": "Chapter 422",
+      "url": "https://komikindo.ch/wind-breaker-chapter-422/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-421",
+      "slug": "wind-breaker-chapter-421",
+      "title": "Chapter 421",
+      "url": "https://komikindo.ch/wind-breaker-chapter-421/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-420",
+      "slug": "wind-breaker-chapter-420",
+      "title": "Chapter 420",
+      "url": "https://komikindo.ch/wind-breaker-chapter-420/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-419",
+      "slug": "wind-breaker-chapter-419",
+      "title": "Chapter 419",
+      "url": "https://komikindo.ch/wind-breaker-chapter-419/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-418",
+      "slug": "wind-breaker-chapter-418",
+      "title": "Chapter 418",
+      "url": "https://komikindo.ch/wind-breaker-chapter-418/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-417",
+      "slug": "wind-breaker-chapter-417",
+      "title": "Chapter 417",
+      "url": "https://komikindo.ch/wind-breaker-chapter-417/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-416",
+      "slug": "wind-breaker-chapter-416",
+      "title": "Chapter 416",
+      "url": "https://komikindo.ch/wind-breaker-chapter-416/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-415",
+      "slug": "wind-breaker-chapter-415",
+      "title": "Chapter 415",
+      "url": "https://komikindo.ch/wind-breaker-chapter-415/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-414",
+      "slug": "wind-breaker-chapter-414",
+      "title": "Chapter 414",
+      "url": "https://komikindo.ch/wind-breaker-chapter-414/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-413",
+      "slug": "wind-breaker-chapter-413",
+      "title": "Chapter 413",
+      "url": "https://komikindo.ch/wind-breaker-chapter-413/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-412",
+      "slug": "wind-breaker-chapter-412",
+      "title": "Chapter 412",
+      "url": "https://komikindo.ch/wind-breaker-chapter-412/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-411",
+      "slug": "wind-breaker-chapter-411",
+      "title": "Chapter 411",
+      "url": "https://komikindo.ch/wind-breaker-chapter-411/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-410",
+      "slug": "wind-breaker-chapter-410",
+      "title": "Chapter 410",
+      "url": "https://komikindo.ch/wind-breaker-chapter-410/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-409",
+      "slug": "wind-breaker-chapter-409",
+      "title": "Chapter 409",
+      "url": "https://komikindo.ch/wind-breaker-chapter-409/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-408",
+      "slug": "wind-breaker-chapter-408",
+      "title": "Chapter 408",
+      "url": "https://komikindo.ch/wind-breaker-chapter-408/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-407",
+      "slug": "wind-breaker-chapter-407",
+      "title": "Chapter 407",
+      "url": "https://komikindo.ch/wind-breaker-chapter-407/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-406",
+      "slug": "wind-breaker-chapter-406",
+      "title": "Chapter 406",
+      "url": "https://komikindo.ch/wind-breaker-chapter-406/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-405",
+      "slug": "wind-breaker-chapter-405",
+      "title": "Chapter 405",
+      "url": "https://komikindo.ch/wind-breaker-chapter-405/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-404",
+      "slug": "wind-breaker-chapter-404",
+      "title": "Chapter 404",
+      "url": "https://komikindo.ch/wind-breaker-chapter-404/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-403",
+      "slug": "wind-breaker-chapter-403",
+      "title": "Chapter 403",
+      "url": "https://komikindo.ch/wind-breaker-chapter-403/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-402",
+      "slug": "wind-breaker-chapter-402",
+      "title": "Chapter 402",
+      "url": "https://komikindo.ch/wind-breaker-chapter-402/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-401",
+      "slug": "wind-breaker-chapter-401",
+      "title": "Chapter 401",
+      "url": "https://komikindo.ch/wind-breaker-chapter-401/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-400",
+      "slug": "wind-breaker-chapter-400",
+      "title": "Chapter 400",
+      "url": "https://komikindo.ch/wind-breaker-chapter-400/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-399",
+      "slug": "wind-breaker-chapter-399",
+      "title": "Chapter 399",
+      "url": "https://komikindo.ch/wind-breaker-chapter-399/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-398",
+      "slug": "wind-breaker-chapter-398",
+      "title": "Chapter 398",
+      "url": "https://komikindo.ch/wind-breaker-chapter-398/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-396",
+      "slug": "wind-breaker-chapter-396",
+      "title": "Chapter 396",
+      "url": "https://komikindo.ch/wind-breaker-chapter-396/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-395",
+      "slug": "wind-breaker-chapter-395",
+      "title": "Chapter 395",
+      "url": "https://komikindo.ch/wind-breaker-chapter-395/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-394",
+      "slug": "wind-breaker-chapter-394",
+      "title": "Chapter 394",
+      "url": "https://komikindo.ch/wind-breaker-chapter-394/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-393",
+      "slug": "wind-breaker-chapter-393",
+      "title": "Chapter 393",
+      "url": "https://komikindo.ch/wind-breaker-chapter-393/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-392",
+      "slug": "wind-breaker-chapter-392",
+      "title": "Chapter 392",
+      "url": "https://komikindo.ch/wind-breaker-chapter-392/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-391",
+      "slug": "wind-breaker-chapter-391",
+      "title": "Chapter 391",
+      "url": "https://komikindo.ch/wind-breaker-chapter-391/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-390",
+      "slug": "wind-breaker-chapter-390",
+      "title": "Chapter 390",
+      "url": "https://komikindo.ch/wind-breaker-chapter-390/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-389",
+      "slug": "wind-breaker-chapter-389",
+      "title": "Chapter 389",
+      "url": "https://komikindo.ch/wind-breaker-chapter-389/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-388",
+      "slug": "wind-breaker-chapter-388",
+      "title": "Chapter 388",
+      "url": "https://komikindo.ch/wind-breaker-chapter-388/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-387",
+      "slug": "wind-breaker-chapter-387",
+      "title": "Chapter 387",
+      "url": "https://komikindo.ch/wind-breaker-chapter-387/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-386",
+      "slug": "wind-breaker-chapter-386",
+      "title": "Chapter 386",
+      "url": "https://komikindo.ch/wind-breaker-chapter-386/",
+      "releaseDate": "4 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-385",
+      "slug": "wind-breaker-chapter-385",
+      "title": "Chapter 385",
+      "url": "https://komikindo.ch/wind-breaker-chapter-385/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-384",
+      "slug": "wind-breaker-chapter-384",
+      "title": "Chapter 384",
+      "url": "https://komikindo.ch/wind-breaker-chapter-384/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-383",
+      "slug": "wind-breaker-chapter-383",
+      "title": "Chapter 383",
+      "url": "https://komikindo.ch/wind-breaker-chapter-383/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-382",
+      "slug": "wind-breaker-chapter-382",
+      "title": "Chapter 382",
+      "url": "https://komikindo.ch/wind-breaker-chapter-382/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-381",
+      "slug": "wind-breaker-chapter-381",
+      "title": "Chapter 381",
+      "url": "https://komikindo.ch/wind-breaker-chapter-381/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-380",
+      "slug": "wind-breaker-chapter-380",
+      "title": "Chapter 380",
+      "url": "https://komikindo.ch/wind-breaker-chapter-380/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-379",
+      "slug": "wind-breaker-chapter-379",
+      "title": "Chapter 379",
+      "url": "https://komikindo.ch/wind-breaker-chapter-379/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-378",
+      "slug": "wind-breaker-chapter-378",
+      "title": "Chapter 378",
+      "url": "https://komikindo.ch/wind-breaker-chapter-378/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-377",
+      "slug": "wind-breaker-chapter-377",
+      "title": "Chapter 377",
+      "url": "https://komikindo.ch/wind-breaker-chapter-377/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-376",
+      "slug": "wind-breaker-chapter-376",
+      "title": "Chapter 376",
+      "url": "https://komikindo.ch/wind-breaker-chapter-376/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-375",
+      "slug": "wind-breaker-chapter-375",
+      "title": "Chapter 375",
+      "url": "https://komikindo.ch/wind-breaker-chapter-375/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-374",
+      "slug": "wind-breaker-chapter-374",
+      "title": "Chapter 374",
+      "url": "https://komikindo.ch/wind-breaker-chapter-374/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-373",
+      "slug": "wind-breaker-chapter-373",
+      "title": "Chapter 373",
+      "url": "https://komikindo.ch/wind-breaker-chapter-373/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-372",
+      "slug": "wind-breaker-chapter-372",
+      "title": "Chapter 372",
+      "url": "https://komikindo.ch/wind-breaker-chapter-372/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-371",
+      "slug": "wind-breaker-chapter-371",
+      "title": "Chapter 371",
+      "url": "https://komikindo.ch/wind-breaker-chapter-371/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-370",
+      "slug": "wind-breaker-chapter-370",
+      "title": "Chapter 370",
+      "url": "https://komikindo.ch/wind-breaker-chapter-370/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-369",
+      "slug": "wind-breaker-chapter-369",
+      "title": "Chapter 369",
+      "url": "https://komikindo.ch/wind-breaker-chapter-369/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-368",
+      "slug": "wind-breaker-chapter-368",
+      "title": "Chapter 368",
+      "url": "https://komikindo.ch/wind-breaker-chapter-368/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-367",
+      "slug": "wind-breaker-chapter-367",
+      "title": "Chapter 367",
+      "url": "https://komikindo.ch/wind-breaker-chapter-367/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-366",
+      "slug": "wind-breaker-chapter-366",
+      "title": "Chapter 366",
+      "url": "https://komikindo.ch/wind-breaker-chapter-366/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-365",
+      "slug": "wind-breaker-chapter-365",
+      "title": "Chapter 365",
+      "url": "https://komikindo.ch/wind-breaker-chapter-365/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-364",
+      "slug": "wind-breaker-chapter-364",
+      "title": "Chapter 364",
+      "url": "https://komikindo.ch/wind-breaker-chapter-364/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-363",
+      "slug": "wind-breaker-chapter-363",
+      "title": "Chapter 363",
+      "url": "https://komikindo.ch/wind-breaker-chapter-363/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-362",
+      "slug": "wind-breaker-chapter-362",
+      "title": "Chapter 362",
+      "url": "https://komikindo.ch/wind-breaker-chapter-362/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-361",
+      "slug": "wind-breaker-chapter-361",
+      "title": "Chapter 361",
+      "url": "https://komikindo.ch/wind-breaker-chapter-361/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-360",
+      "slug": "wind-breaker-chapter-360",
+      "title": "Chapter 360",
+      "url": "https://komikindo.ch/wind-breaker-chapter-360/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-359",
+      "slug": "wind-breaker-chapter-359",
+      "title": "Chapter 359",
+      "url": "https://komikindo.ch/wind-breaker-chapter-359/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-358",
+      "slug": "wind-breaker-chapter-358",
+      "title": "Chapter 358",
+      "url": "https://komikindo.ch/wind-breaker-chapter-358/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-357",
+      "slug": "wind-breaker-chapter-357",
+      "title": "Chapter 357",
+      "url": "https://komikindo.ch/wind-breaker-chapter-357/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-356",
+      "slug": "wind-breaker-chapter-356",
+      "title": "Chapter 356",
+      "url": "https://komikindo.ch/wind-breaker-chapter-356/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-355",
+      "slug": "wind-breaker-chapter-355",
+      "title": "Chapter 355",
+      "url": "https://komikindo.ch/wind-breaker-chapter-355/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-354",
+      "slug": "wind-breaker-chapter-354",
+      "title": "Chapter 354",
+      "url": "https://komikindo.ch/wind-breaker-chapter-354/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-353",
+      "slug": "wind-breaker-chapter-353",
+      "title": "Chapter 353",
+      "url": "https://komikindo.ch/wind-breaker-chapter-353/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-352",
+      "slug": "wind-breaker-chapter-352",
+      "title": "Chapter 352",
+      "url": "https://komikindo.ch/wind-breaker-chapter-352/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-351",
+      "slug": "wind-breaker-chapter-351",
+      "title": "Chapter 351",
+      "url": "https://komikindo.ch/wind-breaker-chapter-351/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-350",
+      "slug": "wind-breaker-chapter-350",
+      "title": "Chapter 350",
+      "url": "https://komikindo.ch/wind-breaker-chapter-350/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-349",
+      "slug": "wind-breaker-chapter-349",
+      "title": "Chapter 349",
+      "url": "https://komikindo.ch/wind-breaker-chapter-349/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-348",
+      "slug": "wind-breaker-chapter-348",
+      "title": "Chapter 348",
+      "url": "https://komikindo.ch/wind-breaker-chapter-348/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-347",
+      "slug": "wind-breaker-chapter-347",
+      "title": "Chapter 347",
+      "url": "https://komikindo.ch/wind-breaker-chapter-347/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-346",
+      "slug": "wind-breaker-chapter-346",
+      "title": "Chapter 346",
+      "url": "https://komikindo.ch/wind-breaker-chapter-346/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-345",
+      "slug": "wind-breaker-chapter-345",
+      "title": "Chapter 345",
+      "url": "https://komikindo.ch/wind-breaker-chapter-345/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-344",
+      "slug": "wind-breaker-chapter-344",
+      "title": "Chapter 344",
+      "url": "https://komikindo.ch/wind-breaker-chapter-344/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-343",
+      "slug": "wind-breaker-chapter-343",
+      "title": "Chapter 343",
+      "url": "https://komikindo.ch/wind-breaker-chapter-343/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-342",
+      "slug": "wind-breaker-chapter-342",
+      "title": "Chapter 342",
+      "url": "https://komikindo.ch/wind-breaker-chapter-342/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-341",
+      "slug": "wind-breaker-chapter-341",
+      "title": "Chapter 341",
+      "url": "https://komikindo.ch/wind-breaker-chapter-341/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-340",
+      "slug": "wind-breaker-chapter-340",
+      "title": "Chapter 340",
+      "url": "https://komikindo.ch/wind-breaker-chapter-340/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-339",
+      "slug": "wind-breaker-chapter-339",
+      "title": "Chapter 339",
+      "url": "https://komikindo.ch/wind-breaker-chapter-339/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-338",
+      "slug": "wind-breaker-chapter-338",
+      "title": "Chapter 338",
+      "url": "https://komikindo.ch/wind-breaker-chapter-338/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-337",
+      "slug": "wind-breaker-chapter-337",
+      "title": "Chapter 337",
+      "url": "https://komikindo.ch/wind-breaker-chapter-337/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-336",
+      "slug": "wind-breaker-chapter-336",
+      "title": "Chapter 336",
+      "url": "https://komikindo.ch/wind-breaker-chapter-336/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-335",
+      "slug": "wind-breaker-chapter-335",
+      "title": "Chapter 335",
+      "url": "https://komikindo.ch/wind-breaker-chapter-335/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-334",
+      "slug": "wind-breaker-chapter-334",
+      "title": "Chapter 334",
+      "url": "https://komikindo.ch/wind-breaker-chapter-334/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-333",
+      "slug": "wind-breaker-chapter-333",
+      "title": "Chapter 333",
+      "url": "https://komikindo.ch/wind-breaker-chapter-333/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-332",
+      "slug": "wind-breaker-chapter-332",
+      "title": "Chapter 332",
+      "url": "https://komikindo.ch/wind-breaker-chapter-332/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-331",
+      "slug": "wind-breaker-chapter-331",
+      "title": "Chapter 331",
+      "url": "https://komikindo.ch/wind-breaker-chapter-331/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-330",
+      "slug": "wind-breaker-chapter-330",
+      "title": "Chapter 330",
+      "url": "https://komikindo.ch/wind-breaker-chapter-330/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-329",
+      "slug": "wind-breaker-chapter-329",
+      "title": "Chapter 329",
+      "url": "https://komikindo.ch/wind-breaker-chapter-329/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-328",
+      "slug": "wind-breaker-chapter-328",
+      "title": "Chapter 328",
+      "url": "https://komikindo.ch/wind-breaker-chapter-328/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-327",
+      "slug": "wind-breaker-chapter-327",
+      "title": "Chapter 327",
+      "url": "https://komikindo.ch/wind-breaker-chapter-327/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-326",
+      "slug": "wind-breaker-chapter-326",
+      "title": "Chapter 326",
+      "url": "https://komikindo.ch/wind-breaker-chapter-326/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-325",
+      "slug": "wind-breaker-chapter-325",
+      "title": "Chapter 325",
+      "url": "https://komikindo.ch/wind-breaker-chapter-325/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-324",
+      "slug": "wind-breaker-chapter-324",
+      "title": "Chapter 324",
+      "url": "https://komikindo.ch/wind-breaker-chapter-324/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-323",
+      "slug": "wind-breaker-chapter-323",
+      "title": "Chapter 323",
+      "url": "https://komikindo.ch/wind-breaker-chapter-323/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-322",
+      "slug": "wind-breaker-chapter-322",
+      "title": "Chapter 322",
+      "url": "https://komikindo.ch/wind-breaker-chapter-322/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-321",
+      "slug": "wind-breaker-chapter-321",
+      "title": "Chapter 321",
+      "url": "https://komikindo.ch/wind-breaker-chapter-321/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-320",
+      "slug": "wind-breaker-chapter-320",
+      "title": "Chapter 320",
+      "url": "https://komikindo.ch/wind-breaker-chapter-320/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-319",
+      "slug": "wind-breaker-chapter-319",
+      "title": "Chapter 319",
+      "url": "https://komikindo.ch/wind-breaker-chapter-319/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-318",
+      "slug": "wind-breaker-chapter-318",
+      "title": "Chapter 318",
+      "url": "https://komikindo.ch/wind-breaker-chapter-318/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-317",
+      "slug": "wind-breaker-chapter-317",
+      "title": "Chapter 317",
+      "url": "https://komikindo.ch/wind-breaker-chapter-317/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-316",
+      "slug": "wind-breaker-chapter-316",
+      "title": "Chapter 316",
+      "url": "https://komikindo.ch/wind-breaker-chapter-316/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-315",
+      "slug": "wind-breaker-chapter-315",
+      "title": "Chapter 315",
+      "url": "https://komikindo.ch/wind-breaker-chapter-315/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-314",
+      "slug": "wind-breaker-chapter-314",
+      "title": "Chapter 314",
+      "url": "https://komikindo.ch/wind-breaker-chapter-314/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-313",
+      "slug": "wind-breaker-chapter-313",
+      "title": "Chapter 313",
+      "url": "https://komikindo.ch/wind-breaker-chapter-313/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-312",
+      "slug": "wind-breaker-chapter-312",
+      "title": "Chapter 312",
+      "url": "https://komikindo.ch/wind-breaker-chapter-312/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-311",
+      "slug": "wind-breaker-chapter-311",
+      "title": "Chapter 311",
+      "url": "https://komikindo.ch/wind-breaker-chapter-311/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-310",
+      "slug": "wind-breaker-chapter-310",
+      "title": "Chapter 310",
+      "url": "https://komikindo.ch/wind-breaker-chapter-310/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-309",
+      "slug": "wind-breaker-chapter-309",
+      "title": "Chapter 309",
+      "url": "https://komikindo.ch/wind-breaker-chapter-309/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-308",
+      "slug": "wind-breaker-chapter-308",
+      "title": "Chapter 308",
+      "url": "https://komikindo.ch/wind-breaker-chapter-308/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-307",
+      "slug": "wind-breaker-chapter-307",
+      "title": "Chapter 307",
+      "url": "https://komikindo.ch/wind-breaker-chapter-307/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-306",
+      "slug": "wind-breaker-chapter-306",
+      "title": "Chapter 306",
+      "url": "https://komikindo.ch/wind-breaker-chapter-306/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-305",
+      "slug": "wind-breaker-chapter-305",
+      "title": "Chapter 305",
+      "url": "https://komikindo.ch/wind-breaker-chapter-305/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-304",
+      "slug": "wind-breaker-chapter-304",
+      "title": "Chapter 304",
+      "url": "https://komikindo.ch/wind-breaker-chapter-304/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-303",
+      "slug": "wind-breaker-chapter-303",
+      "title": "Chapter 303",
+      "url": "https://komikindo.ch/wind-breaker-chapter-303/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-302",
+      "slug": "wind-breaker-chapter-302",
+      "title": "Chapter 302",
+      "url": "https://komikindo.ch/wind-breaker-chapter-302/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-301",
+      "slug": "wind-breaker-chapter-301",
+      "title": "Chapter 301",
+      "url": "https://komikindo.ch/wind-breaker-chapter-301/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-300",
+      "slug": "wind-breaker-chapter-300",
+      "title": "Chapter 300",
+      "url": "https://komikindo.ch/wind-breaker-chapter-300/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-299",
+      "slug": "wind-breaker-chapter-299",
+      "title": "Chapter 299",
+      "url": "https://komikindo.ch/wind-breaker-chapter-299/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-298",
+      "slug": "wind-breaker-chapter-298",
+      "title": "Chapter 298",
+      "url": "https://komikindo.ch/wind-breaker-chapter-298/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-297",
+      "slug": "wind-breaker-chapter-297",
+      "title": "Chapter 297",
+      "url": "https://komikindo.ch/wind-breaker-chapter-297/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-296",
+      "slug": "wind-breaker-chapter-296",
+      "title": "Chapter 296",
+      "url": "https://komikindo.ch/wind-breaker-chapter-296/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-295",
+      "slug": "wind-breaker-chapter-295",
+      "title": "Chapter 295",
+      "url": "https://komikindo.ch/wind-breaker-chapter-295/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-294",
+      "slug": "wind-breaker-chapter-294",
+      "title": "Chapter 294",
+      "url": "https://komikindo.ch/wind-breaker-chapter-294/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-293",
+      "slug": "wind-breaker-chapter-293",
+      "title": "Chapter 293",
+      "url": "https://komikindo.ch/wind-breaker-chapter-293/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-292",
+      "slug": "wind-breaker-chapter-292",
+      "title": "Chapter 292",
+      "url": "https://komikindo.ch/wind-breaker-chapter-292/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-291",
+      "slug": "wind-breaker-chapter-291",
+      "title": "Chapter 291",
+      "url": "https://komikindo.ch/wind-breaker-chapter-291/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-290",
+      "slug": "wind-breaker-chapter-290",
+      "title": "Chapter 290",
+      "url": "https://komikindo.ch/wind-breaker-chapter-290/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-289",
+      "slug": "wind-breaker-chapter-289",
+      "title": "Chapter 289",
+      "url": "https://komikindo.ch/wind-breaker-chapter-289/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-288",
+      "slug": "wind-breaker-chapter-288",
+      "title": "Chapter 288",
+      "url": "https://komikindo.ch/wind-breaker-chapter-288/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-287",
+      "slug": "wind-breaker-chapter-287",
+      "title": "Chapter 287",
+      "url": "https://komikindo.ch/wind-breaker-chapter-287/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-286",
+      "slug": "wind-breaker-chapter-286",
+      "title": "Chapter 286",
+      "url": "https://komikindo.ch/wind-breaker-chapter-286/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-285",
+      "slug": "wind-breaker-chapter-285",
+      "title": "Chapter 285",
+      "url": "https://komikindo.ch/wind-breaker-chapter-285/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-284",
+      "slug": "wind-breaker-chapter-284",
+      "title": "Chapter 284",
+      "url": "https://komikindo.ch/wind-breaker-chapter-284/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-283",
+      "slug": "wind-breaker-chapter-283",
+      "title": "Chapter 283",
+      "url": "https://komikindo.ch/wind-breaker-chapter-283/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-282",
+      "slug": "wind-breaker-chapter-282",
+      "title": "Chapter 282",
+      "url": "https://komikindo.ch/wind-breaker-chapter-282/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-281",
+      "slug": "wind-breaker-chapter-281",
+      "title": "Chapter 281",
+      "url": "https://komikindo.ch/wind-breaker-chapter-281/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-280",
+      "slug": "wind-breaker-chapter-280",
+      "title": "Chapter 280",
+      "url": "https://komikindo.ch/wind-breaker-chapter-280/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-279",
+      "slug": "wind-breaker-chapter-279",
+      "title": "Chapter 279",
+      "url": "https://komikindo.ch/wind-breaker-chapter-279/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-278",
+      "slug": "wind-breaker-chapter-278",
+      "title": "Chapter 278",
+      "url": "https://komikindo.ch/wind-breaker-chapter-278/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-277",
+      "slug": "wind-breaker-chapter-277",
+      "title": "Chapter 277",
+      "url": "https://komikindo.ch/wind-breaker-chapter-277/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-276",
+      "slug": "wind-breaker-chapter-276",
+      "title": "Chapter 276",
+      "url": "https://komikindo.ch/wind-breaker-chapter-276/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-275",
+      "slug": "wind-breaker-chapter-275",
+      "title": "Chapter 275",
+      "url": "https://komikindo.ch/wind-breaker-chapter-275/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-274",
+      "slug": "wind-breaker-chapter-274",
+      "title": "Chapter 274",
+      "url": "https://komikindo.ch/wind-breaker-chapter-274/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-273",
+      "slug": "wind-breaker-chapter-273",
+      "title": "Chapter 273",
+      "url": "https://komikindo.ch/wind-breaker-chapter-273/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-272",
+      "slug": "wind-breaker-chapter-272",
+      "title": "Chapter 272",
+      "url": "https://komikindo.ch/wind-breaker-chapter-272/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-271",
+      "slug": "wind-breaker-chapter-271",
+      "title": "Chapter 271",
+      "url": "https://komikindo.ch/wind-breaker-chapter-271/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-270",
+      "slug": "wind-breaker-chapter-270",
+      "title": "Chapter 270",
+      "url": "https://komikindo.ch/wind-breaker-chapter-270/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-269",
+      "slug": "wind-breaker-chapter-269",
+      "title": "Chapter 269",
+      "url": "https://komikindo.ch/wind-breaker-chapter-269/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-268",
+      "slug": "wind-breaker-chapter-268",
+      "title": "Chapter 268",
+      "url": "https://komikindo.ch/wind-breaker-chapter-268/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-267",
+      "slug": "wind-breaker-chapter-267",
+      "title": "Chapter 267",
+      "url": "https://komikindo.ch/wind-breaker-chapter-267/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-266",
+      "slug": "wind-breaker-chapter-266",
+      "title": "Chapter 266",
+      "url": "https://komikindo.ch/wind-breaker-chapter-266/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-265",
+      "slug": "wind-breaker-chapter-265",
+      "title": "Chapter 265",
+      "url": "https://komikindo.ch/wind-breaker-chapter-265/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-264",
+      "slug": "wind-breaker-chapter-264",
+      "title": "Chapter 264",
+      "url": "https://komikindo.ch/wind-breaker-chapter-264/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-263",
+      "slug": "wind-breaker-chapter-263",
+      "title": "Chapter 263",
+      "url": "https://komikindo.ch/wind-breaker-chapter-263/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-262",
+      "slug": "wind-breaker-chapter-262",
+      "title": "Chapter 262",
+      "url": "https://komikindo.ch/wind-breaker-chapter-262/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-261",
+      "slug": "wind-breaker-chapter-261",
+      "title": "Chapter 261",
+      "url": "https://komikindo.ch/wind-breaker-chapter-261/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-260",
+      "slug": "wind-breaker-chapter-260",
+      "title": "Chapter 260",
+      "url": "https://komikindo.ch/wind-breaker-chapter-260/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-259",
+      "slug": "wind-breaker-chapter-259",
+      "title": "Chapter 259",
+      "url": "https://komikindo.ch/wind-breaker-chapter-259/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-258",
+      "slug": "wind-breaker-chapter-258",
+      "title": "Chapter 258",
+      "url": "https://komikindo.ch/wind-breaker-chapter-258/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-257",
+      "slug": "wind-breaker-chapter-257",
+      "title": "Chapter 257",
+      "url": "https://komikindo.ch/wind-breaker-chapter-257/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-256",
+      "slug": "wind-breaker-chapter-256",
+      "title": "Chapter 256",
+      "url": "https://komikindo.ch/wind-breaker-chapter-256/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-255",
+      "slug": "wind-breaker-chapter-255",
+      "title": "Chapter 255",
+      "url": "https://komikindo.ch/wind-breaker-chapter-255/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-254",
+      "slug": "wind-breaker-chapter-254",
+      "title": "Chapter 254",
+      "url": "https://komikindo.ch/wind-breaker-chapter-254/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-253",
+      "slug": "wind-breaker-chapter-253",
+      "title": "Chapter 253",
+      "url": "https://komikindo.ch/wind-breaker-chapter-253/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-252",
+      "slug": "wind-breaker-chapter-252",
+      "title": "Chapter 252",
+      "url": "https://komikindo.ch/wind-breaker-chapter-252/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-251",
+      "slug": "wind-breaker-chapter-251",
+      "title": "Chapter 251",
+      "url": "https://komikindo.ch/wind-breaker-chapter-251/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-250",
+      "slug": "wind-breaker-chapter-250",
+      "title": "Chapter 250",
+      "url": "https://komikindo.ch/wind-breaker-chapter-250/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-249",
+      "slug": "wind-breaker-chapter-249",
+      "title": "Chapter 249",
+      "url": "https://komikindo.ch/wind-breaker-chapter-249/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-248",
+      "slug": "wind-breaker-chapter-248",
+      "title": "Chapter 248",
+      "url": "https://komikindo.ch/wind-breaker-chapter-248/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-247",
+      "slug": "wind-breaker-chapter-247",
+      "title": "Chapter 247",
+      "url": "https://komikindo.ch/wind-breaker-chapter-247/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-246",
+      "slug": "wind-breaker-chapter-246",
+      "title": "Chapter 246",
+      "url": "https://komikindo.ch/wind-breaker-chapter-246/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-245",
+      "slug": "wind-breaker-chapter-245",
+      "title": "Chapter 245",
+      "url": "https://komikindo.ch/wind-breaker-chapter-245/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-244",
+      "slug": "wind-breaker-chapter-244",
+      "title": "Chapter 244",
+      "url": "https://komikindo.ch/wind-breaker-chapter-244/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-243",
+      "slug": "wind-breaker-chapter-243",
+      "title": "Chapter 243",
+      "url": "https://komikindo.ch/wind-breaker-chapter-243/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-242",
+      "slug": "wind-breaker-chapter-242",
+      "title": "Chapter 242",
+      "url": "https://komikindo.ch/wind-breaker-chapter-242/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-241",
+      "slug": "wind-breaker-chapter-241",
+      "title": "Chapter 241",
+      "url": "https://komikindo.ch/wind-breaker-chapter-241/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-240",
+      "slug": "wind-breaker-chapter-240",
+      "title": "Chapter 240",
+      "url": "https://komikindo.ch/wind-breaker-chapter-240/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-239",
+      "slug": "wind-breaker-chapter-239",
+      "title": "Chapter 239",
+      "url": "https://komikindo.ch/wind-breaker-chapter-239/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-238",
+      "slug": "wind-breaker-chapter-238",
+      "title": "Chapter 238",
+      "url": "https://komikindo.ch/wind-breaker-chapter-238/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-237",
+      "slug": "wind-breaker-chapter-237",
+      "title": "Chapter 237",
+      "url": "https://komikindo.ch/wind-breaker-chapter-237/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-236",
+      "slug": "wind-breaker-chapter-236",
+      "title": "Chapter 236",
+      "url": "https://komikindo.ch/wind-breaker-chapter-236/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-235",
+      "slug": "wind-breaker-chapter-235",
+      "title": "Chapter 235",
+      "url": "https://komikindo.ch/wind-breaker-chapter-235/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-234",
+      "slug": "wind-breaker-chapter-234",
+      "title": "Chapter 234",
+      "url": "https://komikindo.ch/wind-breaker-chapter-234/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-233",
+      "slug": "wind-breaker-chapter-233",
+      "title": "Chapter 233",
+      "url": "https://komikindo.ch/wind-breaker-chapter-233/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-232",
+      "slug": "wind-breaker-chapter-232",
+      "title": "Chapter 232",
+      "url": "https://komikindo.ch/wind-breaker-chapter-232/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-231",
+      "slug": "wind-breaker-chapter-231",
+      "title": "Chapter 231",
+      "url": "https://komikindo.ch/wind-breaker-chapter-231/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-230",
+      "slug": "wind-breaker-chapter-230",
+      "title": "Chapter 230",
+      "url": "https://komikindo.ch/wind-breaker-chapter-230/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-229",
+      "slug": "wind-breaker-chapter-229",
+      "title": "Chapter 229",
+      "url": "https://komikindo.ch/wind-breaker-chapter-229/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-228",
+      "slug": "wind-breaker-chapter-228",
+      "title": "Chapter 228",
+      "url": "https://komikindo.ch/wind-breaker-chapter-228/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-227",
+      "slug": "wind-breaker-chapter-227",
+      "title": "Chapter 227",
+      "url": "https://komikindo.ch/wind-breaker-chapter-227/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-226",
+      "slug": "wind-breaker-chapter-226",
+      "title": "Chapter 226",
+      "url": "https://komikindo.ch/wind-breaker-chapter-226/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-225",
+      "slug": "wind-breaker-chapter-225",
+      "title": "Chapter 225",
+      "url": "https://komikindo.ch/wind-breaker-chapter-225/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-224",
+      "slug": "wind-breaker-chapter-224",
+      "title": "Chapter 224",
+      "url": "https://komikindo.ch/wind-breaker-chapter-224/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-223",
+      "slug": "wind-breaker-chapter-223",
+      "title": "Chapter 223",
+      "url": "https://komikindo.ch/wind-breaker-chapter-223/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-222",
+      "slug": "wind-breaker-chapter-222",
+      "title": "Chapter 222",
+      "url": "https://komikindo.ch/wind-breaker-chapter-222/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-221",
+      "slug": "wind-breaker-chapter-221",
+      "title": "Chapter 221",
+      "url": "https://komikindo.ch/wind-breaker-chapter-221/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-220",
+      "slug": "wind-breaker-chapter-220",
+      "title": "Chapter 220",
+      "url": "https://komikindo.ch/wind-breaker-chapter-220/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-219",
+      "slug": "wind-breaker-chapter-219",
+      "title": "Chapter 219",
+      "url": "https://komikindo.ch/wind-breaker-chapter-219/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-218",
+      "slug": "wind-breaker-chapter-218",
+      "title": "Chapter 218",
+      "url": "https://komikindo.ch/wind-breaker-chapter-218/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-217",
+      "slug": "wind-breaker-chapter-217",
+      "title": "Chapter 217",
+      "url": "https://komikindo.ch/wind-breaker-chapter-217/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-216",
+      "slug": "wind-breaker-chapter-216",
+      "title": "Chapter 216",
+      "url": "https://komikindo.ch/wind-breaker-chapter-216/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-215",
+      "slug": "wind-breaker-chapter-215",
+      "title": "Chapter 215",
+      "url": "https://komikindo.ch/wind-breaker-chapter-215/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-214",
+      "slug": "wind-breaker-chapter-214",
+      "title": "Chapter 214",
+      "url": "https://komikindo.ch/wind-breaker-chapter-214/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-213",
+      "slug": "wind-breaker-chapter-213",
+      "title": "Chapter 213",
+      "url": "https://komikindo.ch/wind-breaker-chapter-213/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-212",
+      "slug": "wind-breaker-chapter-212",
+      "title": "Chapter 212",
+      "url": "https://komikindo.ch/wind-breaker-chapter-212/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-211",
+      "slug": "wind-breaker-chapter-211",
+      "title": "Chapter 211",
+      "url": "https://komikindo.ch/wind-breaker-chapter-211/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-210",
+      "slug": "wind-breaker-chapter-210",
+      "title": "Chapter 210",
+      "url": "https://komikindo.ch/wind-breaker-chapter-210/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-209",
+      "slug": "wind-breaker-chapter-209",
+      "title": "Chapter 209",
+      "url": "https://komikindo.ch/wind-breaker-chapter-209/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-208",
+      "slug": "wind-breaker-chapter-208",
+      "title": "Chapter 208",
+      "url": "https://komikindo.ch/wind-breaker-chapter-208/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-207",
+      "slug": "wind-breaker-chapter-207",
+      "title": "Chapter 207",
+      "url": "https://komikindo.ch/wind-breaker-chapter-207/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-206",
+      "slug": "wind-breaker-chapter-206",
+      "title": "Chapter 206",
+      "url": "https://komikindo.ch/wind-breaker-chapter-206/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-205",
+      "slug": "wind-breaker-chapter-205",
+      "title": "Chapter 205",
+      "url": "https://komikindo.ch/wind-breaker-chapter-205/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-204",
+      "slug": "wind-breaker-chapter-204",
+      "title": "Chapter 204",
+      "url": "https://komikindo.ch/wind-breaker-chapter-204/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-203",
+      "slug": "wind-breaker-chapter-203",
+      "title": "Chapter 203",
+      "url": "https://komikindo.ch/wind-breaker-chapter-203/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-202",
+      "slug": "wind-breaker-chapter-202",
+      "title": "Chapter 202",
+      "url": "https://komikindo.ch/wind-breaker-chapter-202/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-201",
+      "slug": "wind-breaker-chapter-201",
+      "title": "Chapter 201",
+      "url": "https://komikindo.ch/wind-breaker-chapter-201/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-200",
+      "slug": "wind-breaker-chapter-200",
+      "title": "Chapter 200",
+      "url": "https://komikindo.ch/wind-breaker-chapter-200/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-199",
+      "slug": "wind-breaker-chapter-199",
+      "title": "Chapter 199",
+      "url": "https://komikindo.ch/wind-breaker-chapter-199/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-198",
+      "slug": "wind-breaker-chapter-198",
+      "title": "Chapter 198",
+      "url": "https://komikindo.ch/wind-breaker-chapter-198/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-197",
+      "slug": "wind-breaker-chapter-197",
+      "title": "Chapter 197",
+      "url": "https://komikindo.ch/wind-breaker-chapter-197/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-196",
+      "slug": "wind-breaker-chapter-196",
+      "title": "Chapter 196",
+      "url": "https://komikindo.ch/wind-breaker-chapter-196/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-195",
+      "slug": "wind-breaker-chapter-195",
+      "title": "Chapter 195",
+      "url": "https://komikindo.ch/wind-breaker-chapter-195/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-194",
+      "slug": "wind-breaker-chapter-194",
+      "title": "Chapter 194",
+      "url": "https://komikindo.ch/wind-breaker-chapter-194/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-193",
+      "slug": "wind-breaker-chapter-193",
+      "title": "Chapter 193",
+      "url": "https://komikindo.ch/wind-breaker-chapter-193/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-192",
+      "slug": "wind-breaker-chapter-192",
+      "title": "Chapter 192",
+      "url": "https://komikindo.ch/wind-breaker-chapter-192/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-191",
+      "slug": "wind-breaker-chapter-191",
+      "title": "Chapter 191",
+      "url": "https://komikindo.ch/wind-breaker-chapter-191/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-190",
+      "slug": "wind-breaker-chapter-190",
+      "title": "Chapter 190",
+      "url": "https://komikindo.ch/wind-breaker-chapter-190/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-189",
+      "slug": "wind-breaker-chapter-189",
+      "title": "Chapter 189",
+      "url": "https://komikindo.ch/wind-breaker-chapter-189/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-188",
+      "slug": "wind-breaker-chapter-188",
+      "title": "Chapter 188",
+      "url": "https://komikindo.ch/wind-breaker-chapter-188/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-187",
+      "slug": "wind-breaker-chapter-187",
+      "title": "Chapter 187",
+      "url": "https://komikindo.ch/wind-breaker-chapter-187/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-186",
+      "slug": "wind-breaker-chapter-186",
+      "title": "Chapter 186",
+      "url": "https://komikindo.ch/wind-breaker-chapter-186/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-185",
+      "slug": "wind-breaker-chapter-185",
+      "title": "Chapter 185",
+      "url": "https://komikindo.ch/wind-breaker-chapter-185/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-184",
+      "slug": "wind-breaker-chapter-184",
+      "title": "Chapter 184",
+      "url": "https://komikindo.ch/wind-breaker-chapter-184/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-183",
+      "slug": "wind-breaker-chapter-183",
+      "title": "Chapter 183",
+      "url": "https://komikindo.ch/wind-breaker-chapter-183/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-182",
+      "slug": "wind-breaker-chapter-182",
+      "title": "Chapter 182",
+      "url": "https://komikindo.ch/wind-breaker-chapter-182/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-181",
+      "slug": "wind-breaker-chapter-181",
+      "title": "Chapter 181",
+      "url": "https://komikindo.ch/wind-breaker-chapter-181/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-180",
+      "slug": "wind-breaker-chapter-180",
+      "title": "Chapter 180",
+      "url": "https://komikindo.ch/wind-breaker-chapter-180/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-179",
+      "slug": "wind-breaker-chapter-179",
+      "title": "Chapter 179",
+      "url": "https://komikindo.ch/wind-breaker-chapter-179/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-178",
+      "slug": "wind-breaker-chapter-178",
+      "title": "Chapter 178",
+      "url": "https://komikindo.ch/wind-breaker-chapter-178/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-177",
+      "slug": "wind-breaker-chapter-177",
+      "title": "Chapter 177",
+      "url": "https://komikindo.ch/wind-breaker-chapter-177/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-176",
+      "slug": "wind-breaker-chapter-176",
+      "title": "Chapter 176",
+      "url": "https://komikindo.ch/wind-breaker-chapter-176/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-175",
+      "slug": "wind-breaker-chapter-175",
+      "title": "Chapter 175",
+      "url": "https://komikindo.ch/wind-breaker-chapter-175/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-174",
+      "slug": "wind-breaker-chapter-174",
+      "title": "Chapter 174",
+      "url": "https://komikindo.ch/wind-breaker-chapter-174/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-173",
+      "slug": "wind-breaker-chapter-173",
+      "title": "Chapter 173",
+      "url": "https://komikindo.ch/wind-breaker-chapter-173/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-172",
+      "slug": "wind-breaker-chapter-172",
+      "title": "Chapter 172",
+      "url": "https://komikindo.ch/wind-breaker-chapter-172/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-171",
+      "slug": "wind-breaker-chapter-171",
+      "title": "Chapter 171",
+      "url": "https://komikindo.ch/wind-breaker-chapter-171/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-170",
+      "slug": "wind-breaker-chapter-170",
+      "title": "Chapter 170",
+      "url": "https://komikindo.ch/wind-breaker-chapter-170/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-169",
+      "slug": "wind-breaker-chapter-169",
+      "title": "Chapter 169",
+      "url": "https://komikindo.ch/wind-breaker-chapter-169/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-168",
+      "slug": "wind-breaker-chapter-168",
+      "title": "Chapter 168",
+      "url": "https://komikindo.ch/wind-breaker-chapter-168/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-167",
+      "slug": "wind-breaker-chapter-167",
+      "title": "Chapter 167",
+      "url": "https://komikindo.ch/wind-breaker-chapter-167/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-166",
+      "slug": "wind-breaker-chapter-166",
+      "title": "Chapter 166",
+      "url": "https://komikindo.ch/wind-breaker-chapter-166/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-165",
+      "slug": "wind-breaker-chapter-165",
+      "title": "Chapter 165",
+      "url": "https://komikindo.ch/wind-breaker-chapter-165/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-164",
+      "slug": "wind-breaker-chapter-164",
+      "title": "Chapter 164",
+      "url": "https://komikindo.ch/wind-breaker-chapter-164/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-163",
+      "slug": "wind-breaker-chapter-163",
+      "title": "Chapter 163",
+      "url": "https://komikindo.ch/wind-breaker-chapter-163/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-162",
+      "slug": "wind-breaker-chapter-162",
+      "title": "Chapter 162",
+      "url": "https://komikindo.ch/wind-breaker-chapter-162/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-161",
+      "slug": "wind-breaker-chapter-161",
+      "title": "Chapter 161",
+      "url": "https://komikindo.ch/wind-breaker-chapter-161/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-160",
+      "slug": "wind-breaker-chapter-160",
+      "title": "Chapter 160",
+      "url": "https://komikindo.ch/wind-breaker-chapter-160/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-159",
+      "slug": "wind-breaker-chapter-159",
+      "title": "Chapter 159",
+      "url": "https://komikindo.ch/wind-breaker-chapter-159/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-158",
+      "slug": "wind-breaker-chapter-158",
+      "title": "Chapter 158",
+      "url": "https://komikindo.ch/wind-breaker-chapter-158/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-157",
+      "slug": "wind-breaker-chapter-157",
+      "title": "Chapter 157",
+      "url": "https://komikindo.ch/wind-breaker-chapter-157/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-156",
+      "slug": "wind-breaker-chapter-156",
+      "title": "Chapter 156",
+      "url": "https://komikindo.ch/wind-breaker-chapter-156/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-155",
+      "slug": "wind-breaker-chapter-155",
+      "title": "Chapter 155",
+      "url": "https://komikindo.ch/wind-breaker-chapter-155/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-154",
+      "slug": "wind-breaker-chapter-154",
+      "title": "Chapter 154",
+      "url": "https://komikindo.ch/wind-breaker-chapter-154/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-153",
+      "slug": "wind-breaker-chapter-153",
+      "title": "Chapter 153",
+      "url": "https://komikindo.ch/wind-breaker-chapter-153/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-152",
+      "slug": "wind-breaker-chapter-152",
+      "title": "Chapter 152",
+      "url": "https://komikindo.ch/wind-breaker-chapter-152/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-151",
+      "slug": "wind-breaker-chapter-151",
+      "title": "Chapter 151",
+      "url": "https://komikindo.ch/wind-breaker-chapter-151/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-150",
+      "slug": "wind-breaker-chapter-150",
+      "title": "Chapter 150",
+      "url": "https://komikindo.ch/wind-breaker-chapter-150/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-149",
+      "slug": "wind-breaker-chapter-149",
+      "title": "Chapter 149",
+      "url": "https://komikindo.ch/wind-breaker-chapter-149/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-148",
+      "slug": "wind-breaker-chapter-148",
+      "title": "Chapter 148",
+      "url": "https://komikindo.ch/wind-breaker-chapter-148/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-147",
+      "slug": "wind-breaker-chapter-147",
+      "title": "Chapter 147",
+      "url": "https://komikindo.ch/wind-breaker-chapter-147/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-146",
+      "slug": "wind-breaker-chapter-146",
+      "title": "Chapter 146",
+      "url": "https://komikindo.ch/wind-breaker-chapter-146/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-145",
+      "slug": "wind-breaker-chapter-145",
+      "title": "Chapter 145",
+      "url": "https://komikindo.ch/wind-breaker-chapter-145/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-144",
+      "slug": "wind-breaker-chapter-144",
+      "title": "Chapter 144",
+      "url": "https://komikindo.ch/wind-breaker-chapter-144/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-143",
+      "slug": "wind-breaker-chapter-143",
+      "title": "Chapter 143",
+      "url": "https://komikindo.ch/wind-breaker-chapter-143/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-142",
+      "slug": "wind-breaker-chapter-142",
+      "title": "Chapter 142",
+      "url": "https://komikindo.ch/wind-breaker-chapter-142/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-141",
+      "slug": "wind-breaker-chapter-141",
+      "title": "Chapter 141",
+      "url": "https://komikindo.ch/wind-breaker-chapter-141/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-140",
+      "slug": "wind-breaker-chapter-140",
+      "title": "Chapter 140",
+      "url": "https://komikindo.ch/wind-breaker-chapter-140/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-139",
+      "slug": "wind-breaker-chapter-139",
+      "title": "Chapter 139",
+      "url": "https://komikindo.ch/wind-breaker-chapter-139/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-138",
+      "slug": "wind-breaker-chapter-138",
+      "title": "Chapter 138",
+      "url": "https://komikindo.ch/wind-breaker-chapter-138/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-137",
+      "slug": "wind-breaker-chapter-137",
+      "title": "Chapter 137",
+      "url": "https://komikindo.ch/wind-breaker-chapter-137/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-136",
+      "slug": "wind-breaker-chapter-136",
+      "title": "Chapter 136",
+      "url": "https://komikindo.ch/wind-breaker-chapter-136/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-135",
+      "slug": "wind-breaker-chapter-135",
+      "title": "Chapter 135",
+      "url": "https://komikindo.ch/wind-breaker-chapter-135/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-134",
+      "slug": "wind-breaker-chapter-134",
+      "title": "Chapter 134",
+      "url": "https://komikindo.ch/wind-breaker-chapter-134/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-133",
+      "slug": "wind-breaker-chapter-133",
+      "title": "Chapter 133",
+      "url": "https://komikindo.ch/wind-breaker-chapter-133/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-132",
+      "slug": "wind-breaker-chapter-132",
+      "title": "Chapter 132",
+      "url": "https://komikindo.ch/wind-breaker-chapter-132/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-131",
+      "slug": "wind-breaker-chapter-131",
+      "title": "Chapter 131",
+      "url": "https://komikindo.ch/wind-breaker-chapter-131/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-130",
+      "slug": "wind-breaker-chapter-130",
+      "title": "Chapter 130",
+      "url": "https://komikindo.ch/wind-breaker-chapter-130/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-129",
+      "slug": "wind-breaker-chapter-129",
+      "title": "Chapter 129",
+      "url": "https://komikindo.ch/wind-breaker-chapter-129/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-128",
+      "slug": "wind-breaker-chapter-128",
+      "title": "Chapter 128",
+      "url": "https://komikindo.ch/wind-breaker-chapter-128/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-127",
+      "slug": "wind-breaker-chapter-127",
+      "title": "Chapter 127",
+      "url": "https://komikindo.ch/wind-breaker-chapter-127/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-126",
+      "slug": "wind-breaker-chapter-126",
+      "title": "Chapter 126",
+      "url": "https://komikindo.ch/wind-breaker-chapter-126/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-125",
+      "slug": "wind-breaker-chapter-125",
+      "title": "Chapter 125",
+      "url": "https://komikindo.ch/wind-breaker-chapter-125/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-124",
+      "slug": "wind-breaker-chapter-124",
+      "title": "Chapter 124",
+      "url": "https://komikindo.ch/wind-breaker-chapter-124/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-123",
+      "slug": "wind-breaker-chapter-123",
+      "title": "Chapter 123",
+      "url": "https://komikindo.ch/wind-breaker-chapter-123/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-122",
+      "slug": "wind-breaker-chapter-122",
+      "title": "Chapter 122",
+      "url": "https://komikindo.ch/wind-breaker-chapter-122/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-121",
+      "slug": "wind-breaker-chapter-121",
+      "title": "Chapter 121",
+      "url": "https://komikindo.ch/wind-breaker-chapter-121/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-120",
+      "slug": "wind-breaker-chapter-120",
+      "title": "Chapter 120",
+      "url": "https://komikindo.ch/wind-breaker-chapter-120/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-119",
+      "slug": "wind-breaker-chapter-119",
+      "title": "Chapter 119",
+      "url": "https://komikindo.ch/wind-breaker-chapter-119/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-118",
+      "slug": "wind-breaker-chapter-118",
+      "title": "Chapter 118",
+      "url": "https://komikindo.ch/wind-breaker-chapter-118/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-117",
+      "slug": "wind-breaker-chapter-117",
+      "title": "Chapter 117",
+      "url": "https://komikindo.ch/wind-breaker-chapter-117/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-116",
+      "slug": "wind-breaker-chapter-116",
+      "title": "Chapter 116",
+      "url": "https://komikindo.ch/wind-breaker-chapter-116/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-115",
+      "slug": "wind-breaker-chapter-115",
+      "title": "Chapter 115",
+      "url": "https://komikindo.ch/wind-breaker-chapter-115/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-114",
+      "slug": "wind-breaker-chapter-114",
+      "title": "Chapter 114",
+      "url": "https://komikindo.ch/wind-breaker-chapter-114/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-113",
+      "slug": "wind-breaker-chapter-113",
+      "title": "Chapter 113",
+      "url": "https://komikindo.ch/wind-breaker-chapter-113/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-112",
+      "slug": "wind-breaker-chapter-112",
+      "title": "Chapter 112",
+      "url": "https://komikindo.ch/wind-breaker-chapter-112/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-111",
+      "slug": "wind-breaker-chapter-111",
+      "title": "Chapter 111",
+      "url": "https://komikindo.ch/wind-breaker-chapter-111/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-110",
+      "slug": "wind-breaker-chapter-110",
+      "title": "Chapter 110",
+      "url": "https://komikindo.ch/wind-breaker-chapter-110/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-109",
+      "slug": "wind-breaker-chapter-109",
+      "title": "Chapter 109",
+      "url": "https://komikindo.ch/wind-breaker-chapter-109/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-108",
+      "slug": "wind-breaker-chapter-108",
+      "title": "Chapter 108",
+      "url": "https://komikindo.ch/wind-breaker-chapter-108/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-107",
+      "slug": "wind-breaker-chapter-107",
+      "title": "Chapter 107",
+      "url": "https://komikindo.ch/wind-breaker-chapter-107/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-106",
+      "slug": "wind-breaker-chapter-106",
+      "title": "Chapter 106",
+      "url": "https://komikindo.ch/wind-breaker-chapter-106/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-105",
+      "slug": "wind-breaker-chapter-105",
+      "title": "Chapter 105",
+      "url": "https://komikindo.ch/wind-breaker-chapter-105/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-104",
+      "slug": "wind-breaker-chapter-104",
+      "title": "Chapter 104",
+      "url": "https://komikindo.ch/wind-breaker-chapter-104/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-103",
+      "slug": "wind-breaker-chapter-103",
+      "title": "Chapter 103",
+      "url": "https://komikindo.ch/wind-breaker-chapter-103/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-102",
+      "slug": "wind-breaker-chapter-102",
+      "title": "Chapter 102",
+      "url": "https://komikindo.ch/wind-breaker-chapter-102/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-101",
+      "slug": "wind-breaker-chapter-101",
+      "title": "Chapter 101",
+      "url": "https://komikindo.ch/wind-breaker-chapter-101/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-100",
+      "slug": "wind-breaker-chapter-100",
+      "title": "Chapter 100",
+      "url": "https://komikindo.ch/wind-breaker-chapter-100/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-99",
+      "slug": "wind-breaker-chapter-99",
+      "title": "Chapter 99",
+      "url": "https://komikindo.ch/wind-breaker-chapter-99/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-98",
+      "slug": "wind-breaker-chapter-98",
+      "title": "Chapter 98",
+      "url": "https://komikindo.ch/wind-breaker-chapter-98/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-97",
+      "slug": "wind-breaker-chapter-97",
+      "title": "Chapter 97",
+      "url": "https://komikindo.ch/wind-breaker-chapter-97/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-96",
+      "slug": "wind-breaker-chapter-96",
+      "title": "Chapter 96",
+      "url": "https://komikindo.ch/wind-breaker-chapter-96/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-95",
+      "slug": "wind-breaker-chapter-95",
+      "title": "Chapter 95",
+      "url": "https://komikindo.ch/wind-breaker-chapter-95/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-94",
+      "slug": "wind-breaker-chapter-94",
+      "title": "Chapter 94",
+      "url": "https://komikindo.ch/wind-breaker-chapter-94/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-93",
+      "slug": "wind-breaker-chapter-93",
+      "title": "Chapter 93",
+      "url": "https://komikindo.ch/wind-breaker-chapter-93/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-92",
+      "slug": "wind-breaker-chapter-92",
+      "title": "Chapter 92",
+      "url": "https://komikindo.ch/wind-breaker-chapter-92/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-91",
+      "slug": "wind-breaker-chapter-91",
+      "title": "Chapter 91",
+      "url": "https://komikindo.ch/wind-breaker-chapter-91/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-90",
+      "slug": "wind-breaker-chapter-90",
+      "title": "Chapter 90",
+      "url": "https://komikindo.ch/wind-breaker-chapter-90/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-89",
+      "slug": "wind-breaker-chapter-89",
+      "title": "Chapter 89",
+      "url": "https://komikindo.ch/wind-breaker-chapter-89/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-88",
+      "slug": "wind-breaker-chapter-88",
+      "title": "Chapter 88",
+      "url": "https://komikindo.ch/wind-breaker-chapter-88/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-87",
+      "slug": "wind-breaker-chapter-87",
+      "title": "Chapter 87",
+      "url": "https://komikindo.ch/wind-breaker-chapter-87/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-86",
+      "slug": "wind-breaker-chapter-86",
+      "title": "Chapter 86",
+      "url": "https://komikindo.ch/wind-breaker-chapter-86/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-85",
+      "slug": "wind-breaker-chapter-85",
+      "title": "Chapter 85",
+      "url": "https://komikindo.ch/wind-breaker-chapter-85/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-84",
+      "slug": "wind-breaker-chapter-84",
+      "title": "Chapter 84",
+      "url": "https://komikindo.ch/wind-breaker-chapter-84/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-83",
+      "slug": "wind-breaker-chapter-83",
+      "title": "Chapter 83",
+      "url": "https://komikindo.ch/wind-breaker-chapter-83/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-82",
+      "slug": "wind-breaker-chapter-82",
+      "title": "Chapter 82",
+      "url": "https://komikindo.ch/wind-breaker-chapter-82/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-81",
+      "slug": "wind-breaker-chapter-81",
+      "title": "Chapter 81",
+      "url": "https://komikindo.ch/wind-breaker-chapter-81/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-80",
+      "slug": "wind-breaker-chapter-80",
+      "title": "Chapter 80",
+      "url": "https://komikindo.ch/wind-breaker-chapter-80/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-79",
+      "slug": "wind-breaker-chapter-79",
+      "title": "Chapter 79",
+      "url": "https://komikindo.ch/wind-breaker-chapter-79/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-78",
+      "slug": "wind-breaker-chapter-78",
+      "title": "Chapter 78",
+      "url": "https://komikindo.ch/wind-breaker-chapter-78/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-77",
+      "slug": "wind-breaker-chapter-77",
+      "title": "Chapter 77",
+      "url": "https://komikindo.ch/wind-breaker-chapter-77/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-76",
+      "slug": "wind-breaker-chapter-76",
+      "title": "Chapter 76",
+      "url": "https://komikindo.ch/wind-breaker-chapter-76/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-75",
+      "slug": "wind-breaker-chapter-75",
+      "title": "Chapter 75",
+      "url": "https://komikindo.ch/wind-breaker-chapter-75/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-74",
+      "slug": "wind-breaker-chapter-74",
+      "title": "Chapter 74",
+      "url": "https://komikindo.ch/wind-breaker-chapter-74/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-73",
+      "slug": "wind-breaker-chapter-73",
+      "title": "Chapter 73",
+      "url": "https://komikindo.ch/wind-breaker-chapter-73/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-72",
+      "slug": "wind-breaker-chapter-72",
+      "title": "Chapter 72",
+      "url": "https://komikindo.ch/wind-breaker-chapter-72/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-71",
+      "slug": "wind-breaker-chapter-71",
+      "title": "Chapter 71",
+      "url": "https://komikindo.ch/wind-breaker-chapter-71/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-70",
+      "slug": "wind-breaker-chapter-70",
+      "title": "Chapter 70",
+      "url": "https://komikindo.ch/wind-breaker-chapter-70/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-69",
+      "slug": "wind-breaker-chapter-69",
+      "title": "Chapter 69",
+      "url": "https://komikindo.ch/wind-breaker-chapter-69/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-68",
+      "slug": "wind-breaker-chapter-68",
+      "title": "Chapter 68",
+      "url": "https://komikindo.ch/wind-breaker-chapter-68/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-67",
+      "slug": "wind-breaker-chapter-67",
+      "title": "Chapter 67",
+      "url": "https://komikindo.ch/wind-breaker-chapter-67/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-66",
+      "slug": "wind-breaker-chapter-66",
+      "title": "Chapter 66",
+      "url": "https://komikindo.ch/wind-breaker-chapter-66/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-65",
+      "slug": "wind-breaker-chapter-65",
+      "title": "Chapter 65",
+      "url": "https://komikindo.ch/wind-breaker-chapter-65/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-64",
+      "slug": "wind-breaker-chapter-64",
+      "title": "Chapter 64",
+      "url": "https://komikindo.ch/wind-breaker-chapter-64/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-63",
+      "slug": "wind-breaker-chapter-63",
+      "title": "Chapter 63",
+      "url": "https://komikindo.ch/wind-breaker-chapter-63/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-62",
+      "slug": "wind-breaker-chapter-62",
+      "title": "Chapter 62",
+      "url": "https://komikindo.ch/wind-breaker-chapter-62/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-61",
+      "slug": "wind-breaker-chapter-61",
+      "title": "Chapter 61",
+      "url": "https://komikindo.ch/wind-breaker-chapter-61/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-60",
+      "slug": "wind-breaker-chapter-60",
+      "title": "Chapter 60",
+      "url": "https://komikindo.ch/wind-breaker-chapter-60/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-59",
+      "slug": "wind-breaker-chapter-59",
+      "title": "Chapter 59",
+      "url": "https://komikindo.ch/wind-breaker-chapter-59/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-58",
+      "slug": "wind-breaker-chapter-58",
+      "title": "Chapter 58",
+      "url": "https://komikindo.ch/wind-breaker-chapter-58/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-57",
+      "slug": "wind-breaker-chapter-57",
+      "title": "Chapter 57",
+      "url": "https://komikindo.ch/wind-breaker-chapter-57/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-56",
+      "slug": "wind-breaker-chapter-56",
+      "title": "Chapter 56",
+      "url": "https://komikindo.ch/wind-breaker-chapter-56/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-55",
+      "slug": "wind-breaker-chapter-55",
+      "title": "Chapter 55",
+      "url": "https://komikindo.ch/wind-breaker-chapter-55/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-54",
+      "slug": "wind-breaker-chapter-54",
+      "title": "Chapter 54",
+      "url": "https://komikindo.ch/wind-breaker-chapter-54/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-53",
+      "slug": "wind-breaker-chapter-53",
+      "title": "Chapter 53",
+      "url": "https://komikindo.ch/wind-breaker-chapter-53/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-52",
+      "slug": "wind-breaker-chapter-52",
+      "title": "Chapter 52",
+      "url": "https://komikindo.ch/wind-breaker-chapter-52/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-51",
+      "slug": "wind-breaker-chapter-51",
+      "title": "Chapter 51",
+      "url": "https://komikindo.ch/wind-breaker-chapter-51/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-50",
+      "slug": "wind-breaker-chapter-50",
+      "title": "Chapter 50",
+      "url": "https://komikindo.ch/wind-breaker-chapter-50/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-49",
+      "slug": "wind-breaker-chapter-49",
+      "title": "Chapter 49",
+      "url": "https://komikindo.ch/wind-breaker-chapter-49/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-48",
+      "slug": "wind-breaker-chapter-48",
+      "title": "Chapter 48",
+      "url": "https://komikindo.ch/wind-breaker-chapter-48/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-47",
+      "slug": "wind-breaker-chapter-47",
+      "title": "Chapter 47",
+      "url": "https://komikindo.ch/wind-breaker-chapter-47/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-46",
+      "slug": "wind-breaker-chapter-46",
+      "title": "Chapter 46",
+      "url": "https://komikindo.ch/wind-breaker-chapter-46/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-45",
+      "slug": "wind-breaker-chapter-45",
+      "title": "Chapter 45",
+      "url": "https://komikindo.ch/wind-breaker-chapter-45/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-44",
+      "slug": "wind-breaker-chapter-44",
+      "title": "Chapter 44",
+      "url": "https://komikindo.ch/wind-breaker-chapter-44/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-43",
+      "slug": "wind-breaker-chapter-43",
+      "title": "Chapter 43",
+      "url": "https://komikindo.ch/wind-breaker-chapter-43/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-42",
+      "slug": "wind-breaker-chapter-42",
+      "title": "Chapter 42",
+      "url": "https://komikindo.ch/wind-breaker-chapter-42/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-41",
+      "slug": "wind-breaker-chapter-41",
+      "title": "Chapter 41",
+      "url": "https://komikindo.ch/wind-breaker-chapter-41/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-40",
+      "slug": "wind-breaker-chapter-40",
+      "title": "Chapter 40",
+      "url": "https://komikindo.ch/wind-breaker-chapter-40/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-39",
+      "slug": "wind-breaker-chapter-39",
+      "title": "Chapter 39",
+      "url": "https://komikindo.ch/wind-breaker-chapter-39/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-38",
+      "slug": "wind-breaker-chapter-38",
+      "title": "Chapter 38",
+      "url": "https://komikindo.ch/wind-breaker-chapter-38/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-37",
+      "slug": "wind-breaker-chapter-37",
+      "title": "Chapter 37",
+      "url": "https://komikindo.ch/wind-breaker-chapter-37/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-36",
+      "slug": "wind-breaker-chapter-36",
+      "title": "Chapter 36",
+      "url": "https://komikindo.ch/wind-breaker-chapter-36/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-35",
+      "slug": "wind-breaker-chapter-35",
+      "title": "Chapter 35",
+      "url": "https://komikindo.ch/wind-breaker-chapter-35/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-34",
+      "slug": "wind-breaker-chapter-34",
+      "title": "Chapter 34",
+      "url": "https://komikindo.ch/wind-breaker-chapter-34/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-33",
+      "slug": "wind-breaker-chapter-33",
+      "title": "Chapter 33",
+      "url": "https://komikindo.ch/wind-breaker-chapter-33/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-32",
+      "slug": "wind-breaker-chapter-32",
+      "title": "Chapter 32",
+      "url": "https://komikindo.ch/wind-breaker-chapter-32/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-31",
+      "slug": "wind-breaker-chapter-31",
+      "title": "Chapter 31",
+      "url": "https://komikindo.ch/wind-breaker-chapter-31/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-30",
+      "slug": "wind-breaker-chapter-30",
+      "title": "Chapter 30",
+      "url": "https://komikindo.ch/wind-breaker-chapter-30/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-29",
+      "slug": "wind-breaker-chapter-29",
+      "title": "Chapter 29",
+      "url": "https://komikindo.ch/wind-breaker-chapter-29/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-28",
+      "slug": "wind-breaker-chapter-28",
+      "title": "Chapter 28",
+      "url": "https://komikindo.ch/wind-breaker-chapter-28/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-27",
+      "slug": "wind-breaker-chapter-27",
+      "title": "Chapter 27",
+      "url": "https://komikindo.ch/wind-breaker-chapter-27/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-26",
+      "slug": "wind-breaker-chapter-26",
+      "title": "Chapter 26",
+      "url": "https://komikindo.ch/wind-breaker-chapter-26/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-25",
+      "slug": "wind-breaker-chapter-25",
+      "title": "Chapter 25",
+      "url": "https://komikindo.ch/wind-breaker-chapter-25/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-24",
+      "slug": "wind-breaker-chapter-24",
+      "title": "Chapter 24",
+      "url": "https://komikindo.ch/wind-breaker-chapter-24/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-23",
+      "slug": "wind-breaker-chapter-23",
+      "title": "Chapter 23",
+      "url": "https://komikindo.ch/wind-breaker-chapter-23/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-22",
+      "slug": "wind-breaker-chapter-22",
+      "title": "Chapter 22",
+      "url": "https://komikindo.ch/wind-breaker-chapter-22/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-21",
+      "slug": "wind-breaker-chapter-21",
+      "title": "Chapter 21",
+      "url": "https://komikindo.ch/wind-breaker-chapter-21/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-20",
+      "slug": "wind-breaker-chapter-20",
+      "title": "Chapter 20",
+      "url": "https://komikindo.ch/wind-breaker-chapter-20/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-19",
+      "slug": "wind-breaker-chapter-19",
+      "title": "Chapter 19",
+      "url": "https://komikindo.ch/wind-breaker-chapter-19/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-18",
+      "slug": "wind-breaker-chapter-18",
+      "title": "Chapter 18",
+      "url": "https://komikindo.ch/wind-breaker-chapter-18/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-17",
+      "slug": "wind-breaker-chapter-17",
+      "title": "Chapter 17",
+      "url": "https://komikindo.ch/wind-breaker-chapter-17/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-16",
+      "slug": "wind-breaker-chapter-16",
+      "title": "Chapter 16",
+      "url": "https://komikindo.ch/wind-breaker-chapter-16/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-15",
+      "slug": "wind-breaker-chapter-15",
+      "title": "Chapter 15",
+      "url": "https://komikindo.ch/wind-breaker-chapter-15/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-14",
+      "slug": "wind-breaker-chapter-14",
+      "title": "Chapter 14",
+      "url": "https://komikindo.ch/wind-breaker-chapter-14/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-13",
+      "slug": "wind-breaker-chapter-13",
+      "title": "Chapter 13",
+      "url": "https://komikindo.ch/wind-breaker-chapter-13/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-12",
+      "slug": "wind-breaker-chapter-12",
+      "title": "Chapter 12",
+      "url": "https://komikindo.ch/wind-breaker-chapter-12/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-11",
+      "slug": "wind-breaker-chapter-11",
+      "title": "Chapter 11",
+      "url": "https://komikindo.ch/wind-breaker-chapter-11/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-10",
+      "slug": "wind-breaker-chapter-10",
+      "title": "Chapter 10",
+      "url": "https://komikindo.ch/wind-breaker-chapter-10/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-9",
+      "slug": "wind-breaker-chapter-9",
+      "title": "Chapter 9",
+      "url": "https://komikindo.ch/wind-breaker-chapter-9/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-8",
+      "slug": "wind-breaker-chapter-8",
+      "title": "Chapter 8",
+      "url": "https://komikindo.ch/wind-breaker-chapter-8/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-7",
+      "slug": "wind-breaker-chapter-7",
+      "title": "Chapter 7",
+      "url": "https://komikindo.ch/wind-breaker-chapter-7/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-6",
+      "slug": "wind-breaker-chapter-6",
+      "title": "Chapter 6",
+      "url": "https://komikindo.ch/wind-breaker-chapter-6/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-5",
+      "slug": "wind-breaker-chapter-5",
+      "title": "Chapter 5",
+      "url": "https://komikindo.ch/wind-breaker-chapter-5/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-4",
+      "slug": "wind-breaker-chapter-4",
+      "title": "Chapter 4",
+      "url": "https://komikindo.ch/wind-breaker-chapter-4/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-3",
+      "slug": "wind-breaker-chapter-3",
+      "title": "Chapter 3",
+      "url": "https://komikindo.ch/wind-breaker-chapter-3/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-2",
+      "slug": "wind-breaker-chapter-2",
+      "title": "Chapter 2",
+      "url": "https://komikindo.ch/wind-breaker-chapter-2/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-1",
+      "slug": "wind-breaker-chapter-1",
+      "title": "Chapter 1",
+      "url": "https://komikindo.ch/wind-breaker-chapter-1/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    },
+    {
+      "id": "wind-breaker-chapter-00",
+      "slug": "wind-breaker-chapter-00",
+      "title": "Chapter 00",
+      "url": "https://komikindo.ch/wind-breaker-chapter-00/",
+      "releaseDate": "5 tahun yang lalu",
+      "isEnd": false
+    }
+  ]
+}

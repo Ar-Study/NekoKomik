@@ -5,41 +5,60 @@ const ComicAPI = {
   isGitHubPages: window.location.hostname.includes("github.io") || window.location.protocol === "file:",
   _comicCache: [],
 
-  async _fetchWithFallback(apiEndpoint, staticPath) {
-    // Jika di GitHub Pages, langsung akses static JSON
-    if (this.isGitHubPages) {
-      try {
-        const res = await fetch(staticPath);
-        if (res.ok) return await res.json();
-      } catch (e) {
-        console.warn(`[GitHub Pages] Gagal load ${staticPath}:`, e);
-      }
-      return null;
+  getBaseUrl() {
+    let path = window.location.pathname;
+    if (/\.[a-zA-Z0-9]+$/.test(path)) {
+      path = path.substring(0, path.lastIndexOf('/') + 1);
+    } else if (!path.endsWith('/')) {
+      path = path + '/';
     }
+    return window.location.origin + path;
+  },
 
-    // Jika di lokal / server aktif, coba API dulu
+  getStaticUrl(relPath) {
+    const clean = relPath.replace(/^\.?\//, "");
+    return new URL(clean, this.getBaseUrl()).href;
+  },
+
+  async _fetchJson(url, timeoutMs = 6000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
-      const res = await fetch(apiEndpoint);
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(timer);
       if (res.ok) {
-        const json = await res.json();
-        if (json.status === "success") return json.data;
+        return await res.json();
       }
     } catch (e) {
-      console.warn(`[API Fail] Fallback ke static file: ${staticPath}`, e);
-    }
-
-    // Fallback ke static file jika API gagal/tidak tersedia
-    try {
-      const res = await fetch(staticPath);
-      if (res.ok) return await res.json();
-    } catch (e) {
-      console.error(`[Fallback Fail] Gagal mengambil ${staticPath}:`, e);
+      clearTimeout(timer);
+      console.warn(`[Fetch Warning] Gagal request ${url}:`, e.message || e);
     }
     return null;
   },
 
+  async _fetchWithFallback(apiEndpoint, relStaticPath) {
+    const staticUrl = this.getStaticUrl(relStaticPath);
+
+    // Jika di GitHub Pages, langsung akses static JSON
+    if (this.isGitHubPages) {
+      const data = await this._fetchJson(staticUrl);
+      if (data) return data;
+      console.warn(`[GitHub Pages] File static tidak ditemukan: ${staticUrl}`);
+      return null;
+    }
+
+    // Jika di lokal / server aktif, coba API dulu dengan timeout 4s
+    const apiData = await this._fetchJson(apiEndpoint, 4000);
+    if (apiData && apiData.status === "success") {
+      return apiData.data;
+    }
+
+    // Fallback ke static jika API gagal / server mati
+    return await this._fetchJson(staticUrl);
+  },
+
   async getLatestComics(page = 1) {
-    const data = await this._fetchWithFallback(`${this.baseUrl}/latest?page=${page}`, `./data/latest.json`);
+    const data = await this._fetchWithFallback(`${this.baseUrl}/latest?page=${page}`, `data/latest.json`);
     const list = Array.isArray(data) ? data : [];
     if (list.length > 0) {
       this._saveToCache(list);
@@ -48,7 +67,7 @@ const ComicAPI = {
   },
 
   async getPopularComics(page = 1) {
-    const data = await this._fetchWithFallback(`${this.baseUrl}/popular?page=${page}`, `./data/popular.json`);
+    const data = await this._fetchWithFallback(`${this.baseUrl}/popular?page=${page}`, `data/popular.json`);
     const list = Array.isArray(data) ? data : [];
     if (list.length > 0) {
       this._saveToCache(list);
@@ -73,13 +92,10 @@ const ComicAPI = {
     // Coba live search API jika bukan static hosting
     if (!this.isGitHubPages) {
       try {
-        const res = await fetch(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`);
-        if (res.ok) {
-          const json = await res.json();
-          if (json.status === "success" && json.data.length > 0) {
-            this._saveToCache(json.data);
-            return json.data;
-          }
+        const res = await this._fetchJson(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`, 4000);
+        if (res && res.status === "success" && res.data.length > 0) {
+          this._saveToCache(res.data);
+          return res.data;
         }
       } catch (e) {
         console.warn("[Live Search API Fail] Menggunakan pencarian lokal cache:", e);
@@ -102,28 +118,38 @@ const ComicAPI = {
   async getComicDetail(slug) {
     const data = await this._fetchWithFallback(
       `${this.baseUrl}/comic?slug=${encodeURIComponent(slug)}`,
-      `./data/comics/${slug}.json`
+      `data/comics/${slug}.json`
     );
     if (data) return data;
 
-    // Fallback jika belum tersimpan di static data: Buat template darurat dari info cache
+    // Pastikan cache komik terisi
+    if (this._comicCache.length === 0) {
+      await Promise.all([this.getPopularComics(), this.getLatestComics()]);
+    }
+
     const cached = this._comicCache.find(c => c.slug === slug);
     if (cached) {
       return {
+        id: cached.id || cached.slug,
         slug: cached.slug,
         title: cached.title,
-        cover: cached.cover,
+        coverImage: cached.coverImage || cached.cover || "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg",
         type: cached.type || "Manhwa",
         status: "Publishing",
         synopsis: `${cached.title} - Komik seru berkualitas HD di NekoKomik. Baca kelanjutan petualangannya sekarang!`,
-        genres: cached.genres || ["Action", "Fantasy", "Adventure"],
-        rating: cached.rating || "8.5",
+        genres: cached.genres && cached.genres.length ? cached.genres : ["Action", "Fantasy", "Adventure"],
+        rating: cached.rating || 9.0,
         author: "KomikIndo Artist",
+        artist: "KomikIndo Studio",
+        totalChapters: 1,
         chapters: [
           {
-            title: cached.chapter || "Chapter Terbaru",
+            id: `${cached.slug}-chapter-1`,
             slug: `${cached.slug}-chapter-1`,
-            date: "Baru saja"
+            title: cached.latestChapter || "Chapter 1",
+            url: cached.url || `https://komikindo.ch/komik/${cached.slug}/`,
+            releaseDate: cached.chapterDate || "Baru saja",
+            isEnd: false
           }
         ]
       };
@@ -134,9 +160,22 @@ const ComicAPI = {
   async getChapterPages(chapterSlug) {
     const data = await this._fetchWithFallback(
       `${this.baseUrl}/chapter?slug=${encodeURIComponent(chapterSlug)}`,
-      `./data/chapters/${chapterSlug}.json`
+      `data/chapters/${chapterSlug}.json`
     );
-    return data;
+    if (data && data.pages && data.pages.length > 0) {
+      return data;
+    }
+
+    // Fallback agar pembaca tidak pernah stuck loading jika chapter belum terunduh
+    return {
+      title: chapterSlug.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
+      chapterSlug: chapterSlug,
+      pages: [
+        "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg"
+      ],
+      isFallback: true,
+      prevSlug: null,
+      nextSlug: null
+    };
   }
 };
-

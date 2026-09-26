@@ -229,20 +229,26 @@ const App = {
     const latestGrid = document.getElementById("latest-updates-grid");
     const heroContainer = document.getElementById("hero-banner-container");
 
-    if (this.cachedPopular.length === 0) {
+    // Render hero banner immediately so user never sees a blank page
+    this.renderHeroBanner(heroContainer);
+
+    if (this.cachedPopular.length === 0 || this.cachedLatest.length === 0) {
       if (popularGrid) popularGrid.innerHTML = this.getSkeletonCardsHTML(8);
       if (latestGrid) latestGrid.innerHTML = this.getSkeletonCardsHTML(8);
       
-      const [popular, latest] = await Promise.all([
-        ComicAPI.getPopularComics(1),
-        ComicAPI.getLatestComics(1)
-      ]);
+      try {
+        const [popular, latest] = await Promise.all([
+          ComicAPI.getPopularComics(1),
+          ComicAPI.getLatestComics(1)
+        ]);
 
-      this.cachedPopular = popular;
-      this.cachedLatest = latest;
+        if (popular && popular.length > 0) this.cachedPopular = popular;
+        if (latest && latest.length > 0) this.cachedLatest = latest;
+      } catch (err) {
+        console.error("Gagal load daftar komik di home:", err);
+      }
     }
 
-    this.renderHeroBanner(heroContainer);
     this.renderComicsGrid(popularGrid, this.cachedPopular);
     this.renderComicsGrid(latestGrid, this.cachedLatest);
   },
@@ -390,49 +396,54 @@ const App = {
     detailContainer.innerHTML = `
       <div class="container" style="padding: 60px 20px; text-align: center;">
         <div style="font-size: 2.5rem; animation: pulse 1s infinite; margin-bottom: 16px;">⚡</div>
-        <h2 style="font-family: var(--font-heading); font-size: 1.4rem;">Mengambil Data Komik dari KomikIndo...</h2>
+        <h2 style="font-family: var(--font-heading); font-size: 1.4rem;">Mengambil Data Komik...</h2>
         <p style="color: var(--text-dim); margin-top: 8px;">Memuat sinopsis dan seluruh daftar chapter</p>
       </div>
     `;
 
     window.scrollTo({ top: 0, behavior: "smooth" });
 
-    const comic = await ComicAPI.getComicDetail(slug);
-    if (!comic) {
+    try {
+      const comic = await ComicAPI.getComicDetail(slug);
+      if (!comic) {
+        detailContainer.innerHTML = `
+          <div class="container" style="padding: 60px 20px; text-align: center;">
+            <h2 style="font-family: var(--font-heading);">Komik Tidak Ditemukan</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">Gagal memuat komik dengan slug "${slug}".</p>
+            <a href="#home" class="btn btn-primary">Kembali ke Beranda</a>
+          </div>
+        `;
+        return;
+      }
+
+      this.currentComicDetail = comic;
+      document.title = `Komik ${comic.title} Bahasa Indonesia - NekoKomik`;
+
+      const coverSrc = comic.coverImage || comic.cover || "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg";
+      const comicType = comic.type || "Manhwa";
+      const isSaved = StorageService.isBookmarked(comic.slug);
+      const history = StorageService.getComicHistory(comic.slug);
+      const chapters = comic.chapters || [];
+      const firstChapter = chapters.length > 0 ? chapters[chapters.length - 1] : null;
+      const latestChapter = chapters.length > 0 ? chapters[0] : null;
+
       detailContainer.innerHTML = `
-        <div class="container" style="padding: 60px 20px; text-align: center;">
-          <h2 style="font-family: var(--font-heading);">Komik Tidak Ditemukan</h2>
-          <p style="color: var(--text-muted); margin-bottom: 20px;">Gagal memuat komik dengan slug "${slug}" dari KomikIndo.</p>
-          <a href="#home" class="btn btn-primary">Kembali ke Beranda</a>
-        </div>
-      `;
-      return;
-    }
+        <div class="container comic-detail-view">
+          <!-- Breadcrumbs -->
+          <nav class="breadcrumbs" aria-label="breadcrumb">
+            <a href="#home">Beranda</a>
+            <span>›</span>
+            <a href="#catalog?type=${comicType.toLowerCase()}">${comicType}</a>
+            <span>›</span>
+            <span style="color: var(--text-main); font-weight: 600;">${comic.title}</span>
+          </nav>
 
-    this.currentComicDetail = comic;
-    document.title = `Komik ${comic.title} Bahasa Indonesia - NekoKomik`;
-
-    const isSaved = StorageService.isBookmarked(comic.slug);
-    const history = StorageService.getComicHistory(comic.slug);
-    const chapters = comic.chapters || [];
-    const firstChapter = chapters.length > 0 ? chapters[chapters.length - 1] : null;
-    const latestChapter = chapters.length > 0 ? chapters[0] : null;
-
-    detailContainer.innerHTML = `
-      <div class="container comic-detail-view">
-        <!-- Breadcrumbs -->
-        <nav class="breadcrumbs" aria-label="breadcrumb">
-          <a href="#home">Beranda</a>
-          <span>›</span>
-          <a href="#catalog?type=${comic.type.toLowerCase()}">${comic.type}</a>
-          <span>›</span>
-          <span style="color: var(--text-main); font-weight: 600;">${comic.title}</span>
-        </nav>
-
-        <!-- Header Card with Ambient Backdrop -->
-        <div class="detail-header-card" style="background: linear-gradient(180deg, rgba(19, 24, 38, 0.92) 0%, rgba(7, 9, 14, 0.98) 100%), url('${comic.coverImage}') center/cover no-repeat;">
-          <div class="detail-poster-col">
-            <div class="detail-poster-img">
+          <!-- Header Card with Ambient Backdrop -->
+          <div class="detail-header-card" style="background: linear-gradient(180deg, rgba(19, 24, 38, 0.92) 0%, rgba(7, 9, 14, 0.98) 100%), url('${coverSrc}') center/cover no-repeat;">
+            <div class="detail-poster-col">
+              <div class="detail-poster-img">
+                <img src="${coverSrc}" alt="${comic.title}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg';" />
+              </div>
               <img src="${comic.coverImage}" alt="${comic.title}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg';" />
             </div>
             <button class="btn ${isSaved ? 'btn-primary' : 'btn-secondary'}" id="detail-bookmark-btn" style="width: 100%;">
@@ -562,9 +573,19 @@ const App = {
       </div>
     `;
 
-    this.attachDetailEvents(comic);
-    this.renderChaptersList(comic);
-    this.renderDetailComments(comic);
+      this.attachDetailEvents(comic);
+      this.renderChaptersList(comic);
+      this.renderDetailComments(comic);
+    } catch (err) {
+      console.error("Error in showComicDetail:", err);
+      detailContainer.innerHTML = `
+        <div class="container" style="padding: 60px 20px; text-align: center;">
+          <h2 style="font-family: var(--font-heading);">Gagal Memuat Komik</h2>
+          <p style="color: var(--text-muted); margin-bottom: 20px;">Terjadi kendala saat memuat detail komik ini.</p>
+          <a href="#home" class="btn btn-primary">Kembali ke Beranda</a>
+        </div>
+      `;
+    }
   },
 
   attachDetailEvents(comic) {
@@ -749,7 +770,7 @@ const App = {
       const activePill = document.querySelector(`[data-type="${type}"]`);
       if (activePill) activePill.classList.add("active");
 
-      const filtered = type === "all" ? allComics : allComics.filter(c => c.type.toLowerCase() === type.toLowerCase());
+      const filtered = type === "all" ? allComics : allComics.filter(c => (c.type || "").toLowerCase() === type.toLowerCase());
       this.renderComicsGrid(grid, filtered);
     };
 

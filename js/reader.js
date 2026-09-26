@@ -68,36 +68,50 @@ const ReaderController = {
 
     window.scrollTo({ top: 0, behavior: "smooth" });
 
-    // Fetch live chapter data
-    const [chapterData, comicDetail] = await Promise.all([
-      ComicAPI.getChapterPages(chapterSlug),
-      ComicAPI.getComicDetail(comicSlug)
-    ]);
+    try {
+      // Fetch chapter data & detail
+      const [chapterData, comicDetail] = await Promise.all([
+        ComicAPI.getChapterPages(chapterSlug),
+        ComicAPI.getComicDetail(comicSlug)
+      ]);
 
-    if (!chapterData || !chapterData.pages || chapterData.pages.length === 0) {
+      if (!chapterData || !chapterData.pages || chapterData.pages.length === 0) {
+        container.innerHTML = `
+          <div class="reader-view" style="align-items: center; justify-content: center; min-height: 80vh;">
+            <div style="text-align: center; padding: 40px 20px; max-width: 500px;">
+              <div style="font-size: 3rem; margin-bottom: 16px;">⚠️</div>
+              <h2 style="font-family: var(--font-heading); margin-bottom: 12px;">Chapter Belum Tersedia</h2>
+              <p style="color: var(--text-muted); margin-bottom: 24px;">Chapter ini belum tersedia dalam cache statis GitHub Pages atau link sedang diperbarui.</p>
+              <a href="#comic/${comicSlug}" class="btn btn-primary">Kembali ke Detail Komik</a>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      this.chapterData = chapterData;
+      this.comicDetail = comicDetail;
+
+      // Save to reading history
+      StorageService.saveHistory(
+        { id: comicSlug, title: comicDetail ? comicDetail.title : comicSlug, coverImage: comicDetail ? (comicDetail.coverImage || comicDetail.cover) : "", type: comicDetail ? (comicDetail.type || "Komik") : "Komik" },
+        { id: chapterSlug, number: chapterSlug, title: chapterData.title || chapterSlug }
+      );
+
+      this.renderReader();
+    } catch (err) {
+      console.error("Error loading chapter:", err);
       container.innerHTML = `
         <div class="reader-view" style="align-items: center; justify-content: center; min-height: 80vh;">
           <div style="text-align: center; padding: 40px 20px; max-width: 500px;">
             <div style="font-size: 3rem; margin-bottom: 16px;">⚠️</div>
             <h2 style="font-family: var(--font-heading); margin-bottom: 12px;">Gagal Memuat Chapter</h2>
-            <p style="color: var(--text-muted); margin-bottom: 24px;">Halaman chapter dari KomikIndo tidak dapat diambil atau link telah berubah.</p>
+            <p style="color: var(--text-muted); margin-bottom: 24px;">Terjadi kendala saat memuat chapter. Silakan coba kembali beberapa saat lagi.</p>
             <a href="#comic/${comicSlug}" class="btn btn-primary">Kembali ke Detail Komik</a>
           </div>
         </div>
       `;
-      return;
     }
-
-    this.chapterData = chapterData;
-    this.comicDetail = comicDetail;
-
-    // Save to reading history
-    StorageService.saveHistory(
-      { id: comicSlug, title: comicDetail ? comicDetail.title : comicSlug, coverImage: comicDetail ? comicDetail.coverImage : "", type: comicDetail ? comicDetail.type : "Komik" },
-      { id: chapterSlug, number: chapterSlug, title: chapterData.title }
-    );
-
-    this.renderReader();
   },
 
   renderReader() {
