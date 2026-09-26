@@ -15,6 +15,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 PORT = 3000
 BASE_KOMIKINDO = "https://komikindo.ch"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # In-memory Cache { key: (data, timestamp, ttl) }
 CACHE = {}
@@ -154,6 +155,17 @@ def search_comics(query):
     return cards
 
 def get_comic_detail(slug):
+    # Check local static comic file first
+    local_path = os.path.join(DATA_DIR, "comics", f"{slug}.json")
+    if os.path.exists(local_path):
+        try:
+            with open(local_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if data and data.get("title"):
+                    return data
+        except Exception:
+            pass
+
     cache_key = f"comic_{slug}"
     cached = get_cache(cache_key)
     if cached:
@@ -233,6 +245,17 @@ def get_comic_detail(slug):
     return result
 
 def get_chapter_pages(chapter_slug):
+    # Check local static chapter file first
+    local_path = os.path.join(DATA_DIR, "chapters", f"{chapter_slug}.json")
+    if os.path.exists(local_path):
+        try:
+            with open(local_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if data and data.get("pages"):
+                    return data
+        except Exception:
+            pass
+
     cache_key = f"chapter_{chapter_slug}"
     cached = get_cache(cache_key)
     if cached:
