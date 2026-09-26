@@ -175,50 +175,57 @@
   <div class="toast-notice" id="toast-notice">Pemberitahuan</div>
 
   <!-- Footer -->
-  <footer class="site-footer">
+  <!-- Footer -->
+  <footer class="site-footer" id="site-footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-col">
-          <div class="brand-logo" style="margin-bottom: 12px;">
+        <div class="footer-col footer-brand-col">
+          <a href="#home" class="brand-logo" style="margin-bottom: 12px; display: inline-flex;">
             <div class="brand-icon">🐱</div>
-            <div><span>Neko</span><span class="gradient-text">Komik</span></div>
-          </div>
-          <p style="font-size: 0.85rem; line-height: 1.6; color: var(--text-dim);">
+            <div><span>Neko</span><span class="gradient-text">Komik</span> <span class="sub-badge">v2.0</span></div>
+          </a>
+          <p class="footer-desc">
             NekoKomik adalah platform pembaca komik manga, manhwa, dan manhua online terlengkap berbahasa Indonesia dengan tampilan super ringan, cepat, dan nyaman dibaca di smartphone maupun laptop.
           </p>
+          <div class="footer-badges">
+            <span class="footer-badge">⚡ Super Cepat</span>
+            <span class="footer-badge">📱 Mobile Friendly</span>
+            <span class="footer-badge">🛡️ Bebas Iklan Judol</span>
+          </div>
         </div>
 
         <div class="footer-col">
           <h4>Navigasi</h4>
           <ul class="footer-links">
-            <li><a href="#home">Beranda</a></li>
-            <li><a href="#catalog">Jelajah Komik</a></li>
-            <li><a href="#bookmarks">Koleksi Bookmark</a></li>
-            <li><a href="#history">Riwayat Membaca</a></li>
+            <li><a href="#home">🏠 Beranda</a></li>
+            <li><a href="#catalog">📚 Jelajah Komik</a></li>
+            <li><a href="#bookmarks">⭐ Bookmark Favorit</a></li>
+            <li><a href="#history">🕒 Riwayat Membaca</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>Kategori</h4>
           <ul class="footer-links">
-            <li><a href="#catalog?type=manhwa">Manhwa (Korea)</a></li>
-            <li><a href="#catalog?type=manga">Manga (Jepang)</a></li>
-            <li><a href="#catalog?type=manhua">Manhua (China)</a></li>
-            <li><a href="#catalog">Komik Berwarna</a></li>
+            <li><a href="#catalog?type=manhwa">🇰🇷 Manhwa (Korea)</a></li>
+            <li><a href="#catalog?type=manga">🇯🇵 Manga (Jepang)</a></li>
+            <li><a href="#catalog?type=manhua">🇨🇳 Manhua (China)</a></li>
+            <li><a href="#catalog">🎨 Komik Berwarna</a></li>
           </ul>
         </div>
 
-        <div class="footer-col">
+        <div class="footer-col footer-info-col">
           <h4>Informasi</h4>
           <ul class="footer-links">
-            <li><a href="javascript:void(0)" onclick="App.showToast('NekoKomik beroperasi untuk tujuan edukasi & hiburan.')">Tentang Kami</a></li>
-            <li><a href="javascript:void(0)" onclick="App.showToast('DMCA: Hak cipta gambar & konten komik adalah milik pembuat komik masing-masing.')">DMCA Disclaimer</a></li>
+            <li><a href="javascript:void(0)" onclick="App.showToast('NekoKomik beroperasi untuk tujuan edukasi & hiburan.')">ℹ️ Tentang Kami</a></li>
+            <li><a href="javascript:void(0)" onclick="App.showToast('DMCA: Hak cipta konten komik adalah milik masing-masing penerbit.')">⚖️ DMCA Disclaimer</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        © 2026 NekoKomik. Hak cipta gambar & konten komik adalah milik masing-masing penerbit dan mangaka.
+        <p>© 2026 <strong>NekoKomik</strong>. Hak cipta gambar & konten komik adalah milik masing-masing penerbit dan mangaka.</p>
+        <span class="footer-version">v2.0 • Dioptimalkan untuk Smartphone, Tablet & Desktop</span>
       </div>
     </div>
   </footer>

@@ -165,23 +165,27 @@ const App = {
     if (searchDropdown) searchDropdown.classList.remove("show");
 
     if (hash.startsWith("#read/")) {
+      document.body.classList.add("is-reading-mode");
       const parts = hash.replace("#read/", "").split("/");
       const comicSlug = parts[0];
       const chapterSlug = parts[1];
       if (comicSlug && chapterSlug) {
         ReaderController.openChapter(comicSlug, chapterSlug);
       }
-    } else if (hash.startsWith("#comic/")) {
-      const comicSlug = hash.replace("#comic/", "");
-      this.showComicDetail(comicSlug);
-    } else if (hash.startsWith("#catalog")) {
-      this.showCatalog();
-    } else if (hash === "#bookmarks") {
-      this.openBookmarkModal("bookmarks");
-    } else if (hash === "#history") {
-      this.openBookmarkModal("history");
     } else {
-      this.showHome();
+      document.body.classList.remove("is-reading-mode");
+      if (hash.startsWith("#comic/")) {
+        const comicSlug = hash.replace("#comic/", "");
+        this.showComicDetail(comicSlug);
+      } else if (hash.startsWith("#catalog")) {
+        this.showCatalog();
+      } else if (hash === "#bookmarks") {
+        this.openBookmarkModal("bookmarks");
+      } else if (hash === "#history") {
+        this.openBookmarkModal("history");
+      } else {
+        this.showHome();
+      }
     }
   },
 
