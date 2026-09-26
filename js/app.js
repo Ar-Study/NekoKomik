@@ -882,11 +882,12 @@ const App = {
     listContainer.innerHTML = comments.map(c => `
       <div class="comment-item" id="${c.id}">
         <div class="comment-avatar">
-          <img src="${c.avatar || comic.coverImage}" alt="${c.userName}" referrerpolicy="no-referrer" />
+          <img src="${c.avatar || comic.coverImage}" alt="${ReaderController.escapeHTML(c.userName)}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
+          <span>${(c.userName || 'U')[0].toUpperCase()}</span>
         </div>
         <div class="comment-content">
           <div class="comment-meta">
-            <span class="comment-author">${c.userName}</span>
+            <span class="comment-author">${ReaderController.escapeHTML(c.userName || 'Pembaca')}</span>
             <span style="color: var(--rating-color); font-size: 0.8rem;">${'⭐'.repeat(c.rating || 5)}</span>
             <span class="comment-date">• ${c.timestamp}</span>
           </div>
