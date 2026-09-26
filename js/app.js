@@ -31,6 +31,22 @@ const App = {
       genres: ["Action", "Sci-Fi", "Mecha", "Reincarnation"]
     },
     {
+      id: "release-that-witch",
+      slug: "release-that-witch",
+      title: "Release That Witch",
+      tag: "🧙 Isekai Kingdom Building Epik",
+      coverImage: "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Release-That-Witch-236x315.jpg",
+      type: "Manhua",
+      rating: "9.8",
+      votes: "18,950",
+      status: "Berjalan",
+      totalChapters: "695+",
+      releaseYear: "2019",
+      firstChapterSlug: "release-that-witch-chapter-00",
+      synopsis: "Cheng Yan, insinyur modern bertransmigrasi ke dunia fantasi abad pertengahan sebagai Pangeran Roland. Dengan menyelamatkan para penyihir dan memadukan sihir dengan revolusi industri sains modern, ia membangun peradaban terhebat!",
+      genres: ["Action", "Fantasy", "Isekai", "Kingdom Building"]
+    },
+    {
       id: "229848-solo-leveling",
       slug: "229848-solo-leveling",
       title: "Solo Leveling",

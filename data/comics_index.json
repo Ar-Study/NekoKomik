@@ -20,6 +20,26 @@
     "isColor": true
   },
   {
+    "id": "release-that-witch",
+    "slug": "release-that-witch",
+    "title": "Release That Witch",
+    "coverImage": "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Release-That-Witch-236x315.jpg",
+    "rating": 9.6,
+    "type": "Manhua",
+    "status": "Tamat",
+    "latestChapter": "Chapter 695",
+    "latestChapterSlug": "release-that-witch-chapter-695",
+    "latestChapterDate": "5 bulan yang lalu",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Isekai",
+      "Harem",
+      "Magic"
+    ],
+    "synopsis": "Manhua Release That Witch yang dibuat oleh komikus bernama Er Mu ini bercerita tentang Seorang insinyur laki-laki pindah ke dunia lain, dan menjadi seorang pangeran. Tempat ini sangat mirip dengan Abad Pertengahan di Eropa, tetapi pada saat yang sama, kelihatannya agak berbeda? Penyihir benar-benar ada, dan mereka bahkan memiliki kekuatan sihir! Kekuatan sihir adalah kekuatan produktif! Selamatkan para penyihir, bebaskan tenaga produktif! Buka peta, lawan iblis, hancurkan konspirasi, panjat pohon sains dan teknologi, dan buka jalur 'pertanian' hardcore!"
+  },
+  {
     "id": "martial-peak",
     "slug": "martial-peak",
     "title": "Martial Peak",
