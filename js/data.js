@@ -303,23 +303,23 @@ const ComicAPI = {
       const src = match[1].trim();
       if (!src || seen.has(src)) continue;
 
-      // Filter gambar yang bukan halaman komik
+      // Filter ketat: Buang semua iklan judol, banner slot, GIF animasi, dan thumbnail
       const lower = src.toLowerCase();
-      if (lower.includes('fav.png') || lower.includes('komikindo-e') || lower.includes('logo') || 
-          lower.includes('banner') || lower.includes('avatar') || lower.includes('211x285') || 
-          lower.includes('236x319') || lower.includes('236x315')) {
+      if (lower.includes('.gif')) continue; // Komik tidak pernah berupa GIF, semua GIF adalah iklan judol
+      if (['slot', 'judol', 'judi', 'gacor', 'casino', 'bet88', 'banner', 'fav.png', 'komikindo-e', 'logo', 'avatar', '211x', '214x', '236x', 'thumb'].some(ad => lower.includes(ad))) {
         continue;
       }
 
-      // Validasi ekstensi dan CDN komik
-      const isValid = ['/data/', '.jpg', '.webp', '.jpeg', '.gif', '.png', 'googleusercontent', 
-                       'imageainewgeneration', 'himmga', 'aicontent', 'indocontent', 'gaimgame', 'contentkere'].some(k => src.includes(k));
+      // Validasi ekstensi dan CDN halaman komik asli
+      const isValid = ['/data/', '.jpg', '.webp', '.jpeg', '.png', 'imageainewgeneration', 
+                       'himmga', 'aicontent', 'indocontent', 'gaimgame', 'contentkere'].some(k => lower.includes(k));
 
       if (isValid) {
         pages.push(src);
         seen.add(src);
       }
     }
+
 
     // Ambil slug chapter selanjutnya dan sebelumnya
     const nextMatch = html.match(/<a[^>]+href=["']https:\/\/komikindo\.ch\/([^/'"]+)\/["'][^>]*>Chapter Selanjutnya/i);

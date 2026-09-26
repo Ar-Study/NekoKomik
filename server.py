@@ -261,11 +261,14 @@ def get_chapter_pages(chapter_slug):
         img_clean = img.strip()
         if not img_clean or img_clean in seen:
             continue
-        # Filter out icons, logo, thumbnails
-        if any(bad in img_clean.lower() for bad in ['fav.png', 'komikindo-e', 'logo', 'banner', 'avatar', '211x285', '236x319', '236x315']):
+        # Filter out ads, judol banners, gifs, icons, logo, thumbnails
+        img_lower = img_clean.lower()
+        if '.gif' in img_lower:
+            continue
+        if any(bad in img_lower for bad in ['slot', 'judol', 'judi', 'gacor', 'casino', 'bet88', 'banner', 'fav.png', 'komikindo-e', 'logo', 'avatar', '211x', '214x', '236x', 'thumb']):
             continue
         # Match valid comic panel domains or paths
-        if any(valid in img_clean for valid in ['/data/', '.jpg', '.webp', '.jpeg', '.gif', '.png', 'googleusercontent', 'imageainewgeneration', 'himmga', 'aicontent', 'indocontent', 'gaimgame', 'contentkere']):
+        if any(valid in img_lower for valid in ['/data/', '.jpg', '.webp', '.jpeg', '.png', 'imageainewgeneration', 'himmga', 'aicontent', 'indocontent', 'gaimgame', 'contentkere']):
             manga_pages.append(img_clean)
             seen.add(img_clean)
 

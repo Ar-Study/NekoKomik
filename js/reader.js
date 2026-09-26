@@ -104,6 +104,17 @@ const ReaderController = {
       this.chapterData = chapterData;
       this.comicDetail = comicDetail;
 
+      // Defensive ad & judol banner filter
+      if (this.chapterData && Array.isArray(this.chapterData.pages)) {
+        this.chapterData.pages = this.chapterData.pages.filter(url => {
+          if (!url || typeof url !== 'string') return false;
+          const u = url.toLowerCase();
+          if (u.includes('.gif')) return false;
+          if (['slot', 'judol', 'judi', 'gacor', 'casino', 'bet88', 'banner', 'fav.png', 'komikindo-e', 'logo', 'avatar', '211x', '214x', '236x', 'thumb'].some(k => u.includes(k))) return false;
+          return true;
+        });
+      }
+
       // Simpan ke riwayat baca lokal
       StorageService.saveHistory(
         {
@@ -349,7 +360,13 @@ const ReaderController = {
   },
 
   getPagesHTML() {
-    const pages = this.chapterData.pages || [];
+    let pages = this.chapterData.pages || [];
+    // Strict clean filter for display
+    pages = pages.filter(url => {
+      if (!url || typeof url !== 'string') return false;
+      const u = url.toLowerCase();
+      return !u.includes('.gif') && !['slot', 'judol', 'judi', 'gacor', 'casino', 'bet88', 'banner', 'fav.png', 'komikindo-e', 'logo', 'avatar', '211x', '214x', '236x', 'thumb'].some(k => u.includes(k));
+    });
     if (this.settings.mode === "manga") {
       const pageUrl = pages[this.currentPageIndex] || pages[0];
       return `
